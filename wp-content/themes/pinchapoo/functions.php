@@ -10,7 +10,7 @@
  *
  * This function is registered with the 'admin_init' hook.
  */
-add_action('admin_init', 'pinchapoo_initialize_theme_options');
+add_action('admin_menu', 'pinchapoo_initialize_theme_options');
 function pinchapoo_initialize_theme_options() {
 	
 	  add_menu_page(
