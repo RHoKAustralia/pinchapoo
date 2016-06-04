@@ -52,8 +52,6 @@ Author URI: http://www.rhokaustralia.org/
                                 <!-- < ?php wp_link_pages(); ?> </div>
                             <!--end entry-->
                             <div class="post-footer">
-                                <?php wpb_list_child_pages(); ?>
-
                                 <!-- <div class="comments">< ?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div>
                             </div><!--end post footer-->
                         </div><!--end post-->
