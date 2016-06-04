@@ -1,4 +1,5 @@
-*.log
+
+g
 *.swp
 *.back
 *.bak
@@ -66,3 +67,13 @@ wp-includes/
 /wp-signup.php
 /wp-trackback.php
 /xmlrpc.php
+
+# custom
+info.php
+wp-content/index.php
+wp-content/plugins
+wp-content/themes/index.php
+wp-content/themes/twentyfifteen
+wp-content/themes/twentyfourteen
+wp-content/themes/twentysixteen
+wp-content/debug.log
