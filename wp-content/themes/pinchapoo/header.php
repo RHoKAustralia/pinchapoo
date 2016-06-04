@@ -10,7 +10,13 @@
         <ul>
 
         <?php
-            $pages = get_pages();
+        $args = array(
+            'parent' => 0,
+            'post_type' => 'page',
+            'post_status' => 'publish'
+        );
+
+        $pages = get_pages($args);
             foreach ( $pages as $page ) {
                 $option = '<li><a href="' . get_page_link( $page->ID ) . '">';
                 $option .= $page->post_title;
