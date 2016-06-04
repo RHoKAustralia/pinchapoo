@@ -27,12 +27,12 @@
 
                 $children = get_pages($args);
 
-                if(count(children) > 0)
+                if(count($children) > 0)
                 {
                     $option = "<a href='#' class='dropdown'>$page->post_title</a>";
                     $option .= "<ul>";
 
-                    foreach(children as child)
+                    foreach($children as $child)
                     {
                         $option .= '<li><a href="' . get_page_link($child->ID) . '">';
                         $option .= $child->post_title;
