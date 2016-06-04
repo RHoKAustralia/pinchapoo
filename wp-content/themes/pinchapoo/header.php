@@ -2,7 +2,7 @@
 
     <!-- Logo -->
     <div class="logo">
-        <a href="index.html" class="title"><strong>Polymorph</strong> <span class="extra">by Pixelarity</span></a>
+        <a href="index.html" class="title"><strong>Pinchapoo</strong> <span class="extra">a cheeky way to help</span></a>
     </div>
 
     <!-- Nav -->
