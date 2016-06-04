@@ -39,7 +39,7 @@ Author URI: http://www.rhokaustralia.org/
         </article>
 
         <!-- Two -->
-        <article class="half">
+        <!-- <article class="half">
             <img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt="" data-position="center" />
             <div class="content">
                 <h2><a href="#">Aliquam veroeros</a></h2>
@@ -48,10 +48,10 @@ Author URI: http://www.rhokaustralia.org/
                     <li><a href="#" class="button">Full Story</a></li>
                 </ul>
             </div>
-        </article>
+        </article> -->
 
         <!-- Three -->
-        <article class="half">
+        <!-- <article class="half">
             <img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt="" data-position="center" />
             <div class="content">
                 <h2><a href="#">Tempus sed magna</a></h2>
@@ -60,7 +60,7 @@ Author URI: http://www.rhokaustralia.org/
                     <li><a href="#" class="button">Full Story</a></li>
                 </ul>
             </div>
-        </article>
+        </article> -->
 
     </section>
 
@@ -68,7 +68,7 @@ Author URI: http://www.rhokaustralia.org/
     <div id="main">
 
         <!-- Post -->
-        <section class="main special">
+        <!-- <section class="main special">
             <div class="inner">
                 <header class="major">
                     <span class="category">In Depth</span>
@@ -87,7 +87,7 @@ Author URI: http://www.rhokaustralia.org/
                     </ul>
                 </footer>
             </div>
-        </section>
+        </section> -->
 
         <!-- Posts -->
         <section class="main">
