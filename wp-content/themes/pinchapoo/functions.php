@@ -10,19 +10,23 @@
  *
  * This function is registered with the 'admin_init' hook.
  */
-add_action('admin_menu', 'pinchapoo_initialize_theme_options');
-function pinchapoo_initialize_theme_options() {
+add_action( 'admin_menu', array( $this, 'create_pinchapoo_settings_page' ) );
+function create_pinchapoo_settings_page() {
 	
 	  add_menu_page(
 				'Pinchapoo Settings',
 				'Pinchapoo',
 				'manage_options',
 				'pinchapoo_settings',
-				'pinchapoo_settings_page_content',
+				array( $this, 'pinchapoo_settings_page_content' ),
 				'dashicons-admin-plugins',
 				 100
 	  );
- 
+}
+
+add_action('admin_init', 'pinchapoo_initialize_theme_options');
+function pinchapoo_initialize_theme_options() {
+	 
     // First, we register a section. This is necessary since all future options must belong to one. 
     add_settings_section(
         'pinchapoo_settings_section',         // ID used to identify this section and with which to register options
