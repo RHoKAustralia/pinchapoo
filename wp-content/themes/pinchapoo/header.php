@@ -8,7 +8,18 @@
     <!-- Nav -->
     <nav id="nav">
         <ul>
-            <li><a href="index.html">Home</a></li>
+
+        <?php
+            $pages = get_pages();
+            foreach ( $pages as $page ) {
+                $option = '<li><a href="' . get_page_link( $page->ID ) . '">';
+                $option .= $page->post_title;
+                $option .= '</a></li>';
+                echo $option;
+            }
+        ?>
+
+          <!--  <li><a href="index.html">Home</a></li>
             <li>
                 <a href="#" class="dropdown">Dropdown</a>
                 <ul>
@@ -29,7 +40,7 @@
                 </ul>
             </li>
             <li><a href="generic.html">Generic</a></li>
-            <li><a href="elements.html">Elements</a></li>
+            <li><a href="elements.html">Elements</a></li> -->
         </ul>
     </nav>
 
