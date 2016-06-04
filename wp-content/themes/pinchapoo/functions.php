@@ -10,7 +10,7 @@
  *
  * This function is registered with the 'admin_init' hook.
  */
-add_action( 'admin_menu', array( $this, 'create_pinchapoo_settings_page' ) );
+add_action( 'admin_menu', 'create_pinchapoo_settings_page');
 function create_pinchapoo_settings_page() {
 	
 	  add_menu_page(
