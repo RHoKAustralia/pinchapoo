@@ -18,9 +18,36 @@
 
         $pages = get_pages($args);
             foreach ( $pages as $page ) {
-                $option = '<li><a href="' . get_page_link( $page->ID ) . '">';
-                $option .= $page->post_title;
-                $option .= '</a></li>';
+
+                $args = array(
+                    'child_of' => $page->ID,
+                    'post_type' => 'page',
+                    'post_status' => 'publish'
+                );
+
+                $children = get_pages($args);
+
+                if(count(children) > 0)
+                {
+                    $option = "<a href='#' class='dropdown'>$page->post_title</a>";
+                    $option .= "<ul>";
+
+                    foreach(children as child)
+                    {
+                        $option .= '<li><a href="' . get_page_link($child->ID) . '">';
+                        $option .= $child->post_title;
+                        $option .= '</a></li>';
+                    }
+
+                    $option .= "</ul>";
+                }
+                else
+                {
+                    $option = '<li><a href="' . get_page_link($page->ID) . '">';
+                    $option .= $page->post_title;
+                    $option .= '</a></li>';
+                }
+
                 echo $option;
             }
         ?>

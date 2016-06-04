@@ -91,7 +91,7 @@ Author URI: http://www.rhokaustralia.org/
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Mauris vitae</a></h2>
                         <ul class="meta">
@@ -108,7 +108,7 @@ Author URI: http://www.rhokaustralia.org/
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Dapibus nulla</a></h2>
                         <ul class="meta">
@@ -125,7 +125,7 @@ Author URI: http://www.rhokaustralia.org/
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Dictum veroeros</a></h2>
                         <ul class="meta">
@@ -142,7 +142,7 @@ Author URI: http://www.rhokaustralia.org/
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Lorem sed magna</a></h2>
                         <ul class="meta">
@@ -159,7 +159,7 @@ Author URI: http://www.rhokaustralia.org/
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Vitae adipiscing</a></h2>
                         <ul class="meta">
@@ -176,7 +176,7 @@ Author URI: http://www.rhokaustralia.org/
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="images/pic10.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Aliquam phasellus</a></h2>
                         <ul class="meta">
