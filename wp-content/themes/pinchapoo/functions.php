@@ -70,21 +70,13 @@ function pinchapoo_general_options_callback() {
  * ------------------------------------------------------------------------ */
  
 function goods_counter_callback($args) {
-     
-    // Note the ID and the name attribute of the element match that of the ID in the call to add_settings_field
-    $html = '<input type="text" id="number_of_orgs" name="number_of_orgs" value="' . get_option('number_of_orgs') . '/>'; 
-     
-    echo $html;
+ 		echo '<input name="number_of_goods" id="number_of_goods" type="text" value="' . get_option( 'number_of_goods' ) . '" />';
      
 } 
  
-function orgs_counter_callback($args) {
-     
-    // Note the ID and the name attribute of the element match that of the ID in the call to add_settings_field
-    $html = '<input type="text" id="number_of_goods" name="number_of_goods" value="' . get_option('number_of_goods') . '/>'; 
-     
-    echo $html;
-     
+function orgs_counter_callback($args) {     
+	echo '<input name="number_of_orgs" id="number_of_orgs" type="text" value="' . get_option( 'number_of_orgs' ) . '" />';
+
 } 
  
 ?>
