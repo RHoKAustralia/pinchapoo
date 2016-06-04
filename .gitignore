@@ -73,7 +73,7 @@ info.php
 wp-content/index.php
 wp-content/plugins
 wp-content/themes/index.php
-wp-content/twentyfifteen
-wp-content/twentyfourteen
-wp-content/twentysixteen
+wp-content/themes/twentyfifteen
+wp-content/themes/twentyfourteen
+wp-content/themes/twentysixteen
 wp-content/debug.log
