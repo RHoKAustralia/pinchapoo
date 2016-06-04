@@ -133,57 +133,6 @@
                         </ul>
                     </footer>
                 </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
-                    <header>
-                        <h2><a href="#">Lorem sed magna</a></h2>
-                        <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
-                        </ul>
-                    </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
-                        </ul>
-                    </footer>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
-                    <header>
-                        <h2><a href="#">Vitae adipiscing</a></h2>
-                        <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
-                        </ul>
-                    </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
-                        </ul>
-                    </footer>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
-                    <header>
-                        <h2><a href="#">Aliquam phasellus</a></h2>
-                        <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
-                        </ul>
-                    </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
-                        </ul>
-                    </footer>
-                </article>
             </div>
         </section>
 
