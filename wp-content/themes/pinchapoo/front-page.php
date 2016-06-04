@@ -28,7 +28,7 @@ Author URI: http://www.rhokaustralia.org/
 
         <!-- One -->
         <article class="full">
-            <img src="<?php bloginfo('template_url'); ?>/images/home page banner_shower.png" alt="" data-position="center" />
+            <img src="<?php bloginfo('template_url'); ?>/images/home page banner_shower.jpg" alt="" data-position="center" />
             <div class="content">
                 <h2><a href="#">Ipsum consequat lorem</a></h2>
                 <p>Lorem feugiat veroeros dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat tempus adipiscing.</p>
