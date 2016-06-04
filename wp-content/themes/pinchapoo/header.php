@@ -2,7 +2,7 @@
 
     <!-- Logo -->
     <div class="logo">
-        <a href="front-page.php" class="title"><strong>Pinchapoo</strong> <span class="extra">a cheeky way to help</span></a>
+        <a href="<?php the_permalink(); ?>/front-page.php" class="title"><strong>Pinchapoo</strong> <span class="extra">a cheeky way to help</span></a>
     </div>
 
     <!-- Nav -->

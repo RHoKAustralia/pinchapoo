@@ -1,13 +1,14 @@
 <footer id="footer">
     <div class="inner">
         <section>
-            <h2>Sed vitae consequat</h2>
-            <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam magna etiam magna feugiat cursus lorem nisi. Amet mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus etiam adipiscing amet sed aliquam veroeros etiam feugiat veroeros aliquam feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing tempus.</p>
+            <!--<h2>Pinchapoo</h2>
+            <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam magna etiam magna feugiat cursus lorem nisi. Amet mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus etiam adipiscing amet sed aliquam veroeros etiam feugiat veroeros aliquam feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing tempus.</p> -->
+            <p><img src="<?php the_permalink(); ?>/images/pinchapoo.png" /></p>
             <ul class="icons style2">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+                <li><a href="https://twitter.com/pinchapoo_aus" class="icon fa-twitter" target='_blank'><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/Pinchapoo" target='_blank' class="icon fa-facebook" ><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/pinchapoo_aus/" target='_blank' class="icon fa-instagram" target='_blank' ><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.linkedin.com/in/kate-austin-7b3b38a1" target='_blank' class="icon fa-linkedin" target='_blank' ><span class="label">LinkedIn</span></a></li>
             </ul>
         </section>
         <section>
