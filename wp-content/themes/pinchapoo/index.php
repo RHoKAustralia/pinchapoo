@@ -93,7 +93,7 @@ Author URI: http://www.rhokaustralia.org/
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Mauris vitae</a></h2>
                         <ul class="meta">
