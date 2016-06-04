@@ -29,7 +29,7 @@
 
                 if(count($children) > 0)
                 {
-                    $option = "<a href='#' class='dropdown'>$page->post_title</a>";
+                    $option = "<li><a href='#' class='dropdown'>$page->post_title</a>";
                     $option .= "<ul>";
 
                     foreach($children as $child)
@@ -39,7 +39,7 @@
                         $option .= '</a></li>';
                     }
 
-                    $option .= "</ul>";
+                    $option .= "</ul></li>";
                 }
                 else
                 {
