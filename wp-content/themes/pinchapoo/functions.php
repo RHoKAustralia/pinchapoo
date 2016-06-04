@@ -67,7 +67,7 @@ function pinchapoo_initialize_theme_options() {
      
 } // end sandbox_initialize_theme_options
 
-public function pinchapoo_settings_page_content() { ?>
+function pinchapoo_settings_page_content() { ?>
 	<div class="wrap">
 		<h2>Pinchapoo</h2>
 		<form method="post" action="options.php">
