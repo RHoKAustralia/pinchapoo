@@ -13,9 +13,13 @@ Author URI: http://www.rhokaustralia.org/
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="style.css" />
-		<!--[if lte IE 9]><link rel="stylexsheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+        <?php function wpdocs_theme_name_scripts() {
+            wp_enqueue_style( 'style.css', get_template_directory_uri() );
+            }
+            add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' ); ?>
 	</head>
 	<body>
 
