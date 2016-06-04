@@ -3558,7 +3558,7 @@ Author URI: http://www.rhokaustralia.org/
 			padding: 8em 4em 6.25em 4em ;
 			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: contain;
 			overflow: hidden;
 			position: relative;
 			cursor: default;

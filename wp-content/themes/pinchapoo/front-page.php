@@ -5,7 +5,7 @@ Theme URI: http://www.pinchapoo.org.au/
 Description: A brief description.
 Version: 1.0
 Author: RHoK
-Author URI: http://www.rhokaustralia.org/
+Author URI: http://www.rhokaustralia.org/d
 -->
 <html>
 <head>
