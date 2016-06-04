@@ -23,47 +23,6 @@ Author URI: http://www.rhokaustralia.org/
 <div id="wrapper">
     <?php get_header(); ?>
 
-    <!-- Banner -->
-    <section id="banner">
-
-        <!-- One -->
-        <article class="full">
-            <img src="<?php bloginfo('template_url'); ?>/images/pic01.jpg" alt="" data-position="center" />
-            <div class="content">
-                <h2><a href="#">Ipsum consequat lorem</a></h2>
-                <p>Lorem feugiat veroeros dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat tempus adipiscing.</p>
-                <ul class="actions">
-                    <li><a href="#" class="button">Full Story</a></li>
-                </ul>
-            </div>
-        </article>
-
-        <!-- Two -->
-       <!-- <article class="half">
-            <img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt="" data-position="center" />
-            <div class="content">
-                <h2><a href="#">Aliquam veroeros</a></h2>
-                <p>Dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat.</p>
-                <ul class="actions">
-                    <li><a href="#" class="button">Full Story</a></li>
-                </ul>
-            </div>
-        </article> -->
-
-        <!-- Three -->
-        <!-- <article class="half">
-            <img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt="" data-position="center" />
-            <div class="content">
-                <h2><a href="#">Tempus sed magna</a></h2>
-                <p>Dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat.</p>
-                <ul class="actions">
-                    <li><a href="#" class="button">Full Story</a></li>
-                </ul>
-            </div>
-        </article> -->
-
-    </section>
-
     <!-- Main -->
     <div id="main">
 
