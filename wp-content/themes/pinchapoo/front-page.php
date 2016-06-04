@@ -33,7 +33,7 @@ Author URI: http://www.rhokaustralia.org/
 
 		<!-- One -->
 		<article class="full">
-			<img src="images/pic01.jpg" alt="" data-position="center" />
+            <img src="<?php bloginfo('template_url'); ?>/images/pic01.jpg" alt="" data-position="center" />
 			<div class="content">
 				<h2><a href="#">Ipsum consequat lorem</a></h2>
 				<p>Lorem feugiat veroeros dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat tempus adipiscing.</p>
@@ -45,7 +45,7 @@ Author URI: http://www.rhokaustralia.org/
 
 		<!-- Two -->
 		<article class="half">
-			<img src="images/pic02.jpg" alt="" data-position="center" />
+			<img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt="" data-position="center" />
 			<div class="content">
 				<h2><a href="#">Aliquam veroeros</a></h2>
 				<p>Dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat.</p>
@@ -57,7 +57,7 @@ Author URI: http://www.rhokaustralia.org/
 
 		<!-- Three -->
 		<article class="half">
-			<img src="images/pic03.jpg" alt="" data-position="center" />
+			<img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt="" data-position="center" />
 			<div class="content">
 				<h2><a href="#">Tempus sed magna</a></h2>
 				<p>Dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat.</p>
@@ -84,7 +84,7 @@ Author URI: http://www.rhokaustralia.org/
 						<li><a href="#" class="comments">1,423</a></li>
 					</ul>
 				</header>
-				<a href="#" class="image main"><img src="images/pic04.jpg" alt="" /></a>
+				<a href="#" class="image main"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
 				<p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
 				<footer>
 					<ul class="actions">
@@ -115,7 +115,7 @@ Author URI: http://www.rhokaustralia.org/
 					</footer>
 				</article>
 				<article>
-					<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
 					<header>
 						<h2><a href="#">Dapibus nulla</a></h2>
 						<ul class="meta">
@@ -132,7 +132,7 @@ Author URI: http://www.rhokaustralia.org/
 					</footer>
 				</article>
 				<article>
-					<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
 					<header>
 						<h2><a href="#">Dictum veroeros</a></h2>
 						<ul class="meta">
@@ -149,7 +149,7 @@ Author URI: http://www.rhokaustralia.org/
 					</footer>
 				</article>
 				<article>
-					<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
 					<header>
 						<h2><a href="#">Lorem sed magna</a></h2>
 						<ul class="meta">
@@ -166,7 +166,7 @@ Author URI: http://www.rhokaustralia.org/
 					</footer>
 				</article>
 				<article>
-					<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
 					<header>
 						<h2><a href="#">Vitae adipiscing</a></h2>
 						<ul class="meta">
@@ -183,7 +183,7 @@ Author URI: http://www.rhokaustralia.org/
 					</footer>
 				</article>
 				<article>
-					<a href="#" class="image"><img src="images/pic10.jpg" alt="" /></a>
+					<a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
 					<header>
 						<h2><a href="#">Aliquam phasellus</a></h2>
 						<ul class="meta">
