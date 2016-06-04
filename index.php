@@ -1,8 +1,11 @@
 <!DOCTYPE HTML>
 <!--
-	Polymorph by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
+Theme Name: Pinchapoo
+Theme URI: http://www.pinchapoo.org.au/
+Description: A brief description.
+Version: 1.0
+Author: RHoK
+Author URI: http://www.rhokaustralia.org/
 -->
 <html>
 	<head>
