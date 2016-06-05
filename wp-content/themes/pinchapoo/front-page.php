@@ -235,8 +235,8 @@ Author URI: http://www.rhokaustralia.org/d
 				<script>
 					$(document).ready(function() {
 						var goodsCounter = new Odometer({
-						  selector: '#goods_counter',
-						  value: 0,
+						  el: document.getElementById('goods_counter'),
+						  value: 0
 						});
 						setTimeout(1000, function() {
 							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
