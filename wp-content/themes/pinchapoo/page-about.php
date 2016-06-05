@@ -113,7 +113,7 @@
                     </footer>
                 </article>
                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner.png" alt="" /></a>
                     <header>
                         <h2><a href="#">How to Donate</a></h2>
                         <ul class="meta"></ul>
