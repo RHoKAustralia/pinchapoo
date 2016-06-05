@@ -14,6 +14,7 @@ Author URI: http://www.rhokaustralia.org/d
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/odometer.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/ie8.css" /><![endif]-->
 </head>
@@ -37,6 +38,12 @@ Author URI: http://www.rhokaustralia.org/d
                 </ul>
             </div>
         </article>
+				
+				<article class="full pinchapoo-blue">
+					<div class="content">
+						<h2><div id="odometer" class="odometer"> <?php echo get_option('number_of_goods'); ?></div> goods redistributed and counting</h2>
+					</div>
+				</article>
 
         <!-- Two -->
         <!-- <article class="half">
@@ -221,6 +228,7 @@ Author URI: http://www.rhokaustralia.org/d
 <script src="<?php bloginfo('template_url'); ?>/assets/js/jquery.dropotron.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/skel.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/assets/js/util.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/assets/odometer.min.js"></script>
 <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
 
