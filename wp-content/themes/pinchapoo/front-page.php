@@ -39,9 +39,15 @@ Author URI: http://www.rhokaustralia.org/d
             </div>
         </article>
 				
-				<article class="half pinchapoo-blue">
+				<article class="half pinchapoo-blue squash">
 					<div class="content">
-						<h2><span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> goods redistributed and counting</span></h2>
+						<span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> goods redistributed and counting</span>
+					</div>
+				</article>
+				
+				<article class="half pinchapoo-blue squash">
+					<div class="content">
+						<span id="orgs_counter" class="counter">0</span><span id="orgs_desc" class="counter-description" style="display: none;"> organisations involved</span>
 					</div>
 				</article>
 
@@ -238,9 +244,15 @@ Author URI: http://www.rhokaustralia.org/d
 						  el: document.getElementById('goods_counter'),
 						  value: 0
 						});
+						var orgsCounter = new Odometer({
+						  el: document.getElementById('orgs_counter'),
+						  value: 0
+						});
 						setTimeout(function() {
 							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
 							$('#goods_desc').show({duration: 400, easing: 'swing'});
+							orgsCounter.update(<?php echo get_option('number_of_goods'); ?>);
+							$('#orgs_desc').show({duration: 400, easing: 'swing'});
 						}, 1000);
 					});
 				</script>
