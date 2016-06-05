@@ -44,18 +44,6 @@ Author URI: http://www.rhokaustralia.org/d
 						<h2><div id="goods_counter">0</div><span id="goods_desc" style="visibility: hidden;"> goods redistributed and counting</span></h2>
 					</div>
 				</article>
-				<script>
-					$(document).ready(function() {
-						var goodsCounter = new Odometer({
-						  selector: '#goods_counter',
-						  value: 0,
-						});
-						setTimeout(1000, function() {
-							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
-							$('#goods_desc').show({duration: 400, easing: 'swing'});
-						});
-					});
-				</script>
 
         <!-- Two -->
         <!-- <article class="half">
@@ -244,5 +232,17 @@ Author URI: http://www.rhokaustralia.org/d
 <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
 
+				<script>
+					$(document).ready(function() {
+						var goodsCounter = new Odometer({
+						  selector: '#goods_counter',
+						  value: 0,
+						});
+						setTimeout(1000, function() {
+							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
+							$('#goods_desc').show({duration: 400, easing: 'swing'});
+						});
+					});
+				</script>
 </body>
 </html>
