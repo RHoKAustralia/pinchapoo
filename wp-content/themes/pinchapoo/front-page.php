@@ -41,9 +41,15 @@ Author URI: http://www.rhokaustralia.org/d
 				
 				<article class="full pinchapoo-blue">
 					<div class="content">
-						<h2><div id="odometer" class="odometer"> <?php echo get_option('number_of_goods'); ?></div> goods redistributed and counting</h2>
+						<h2><div id="odometer" class="odometer"></div><span id="goods_desc" style="visibility: hidden;"> goods redistributed and counting</span></h2>
 					</div>
 				</article>
+				<script>
+					setTimeout(1000, function() {
+						odometer.innerHTML = "<?php echo get_option('number_of_goods'); ?>";
+						$('#goods_desc').show({duration: 400, easing: 'swing'});
+					});
+				</script>
 
         <!-- Two -->
         <!-- <article class="half">
