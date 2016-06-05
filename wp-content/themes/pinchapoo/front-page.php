@@ -39,9 +39,15 @@ Author URI: http://www.rhokaustralia.org/d
             </div>
         </article>
 				
-				<article class="half pinchapoo-blue">
+				<article class="half pinchapoo-blue squash">
 					<div class="content">
-						<h2><span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> goods redistributed and counting</span></h2>
+						<span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_goods_desc'); ?></span>
+					</div>
+				</article>
+				
+				<article class="half pinchapoo-blue squash">
+					<div class="content">
+						<span id="orgs_counter" class="counter">0</span><span id="orgs_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_orgs_desc'); ?></span>
 					</div>
 				</article>
 
@@ -86,7 +92,7 @@ Author URI: http://www.rhokaustralia.org/d
                         <li><a href="#" class="comments">1,423</a></li>
                     </ul>
                 </header>
-                <a href="#" class="image main"><img src="< ?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
+                <a href="#" class="image main"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
                 <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
                 <footer>
                     <ul class="actions">
@@ -228,9 +234,15 @@ Author URI: http://www.rhokaustralia.org/d
 						  el: document.getElementById('goods_counter'),
 						  value: 0
 						});
+						var orgsCounter = new Odometer({
+						  el: document.getElementById('orgs_counter'),
+						  value: 0
+						});
 						setTimeout(function() {
 							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
 							$('#goods_desc').show({duration: 400, easing: 'swing'});
+							orgsCounter.update(<?php echo get_option('number_of_orgs'); ?>);
+							$('#orgs_desc').show({duration: 400, easing: 'swing'});
 						}, 1000);
 					});
 				</script>

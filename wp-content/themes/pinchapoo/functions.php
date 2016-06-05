@@ -47,6 +47,17 @@ function pinchapoo_initialize_theme_options() {
     );
      
     add_settings_field( 
+        'number_of_goods_desc',                      // ID used to identify the field throughout the theme
+        'Number of goods redistributed description',                           // The label to the left of the option interface element
+        'goods_counter_desc_callback',   // The name of the function responsible for rendering the option interface
+        'pinchapoo_settings',                          // The page on which this option will be displayed
+        'pinchapoo_settings_section',         // The name of the section to which this field belongs
+        array(                              // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to be the suffix to the number of goods (ie: x goods redistributed).'
+        )
+    );
+     
+    add_settings_field( 
         'number_of_orgs',                     
         'Number of organisations supported',              
         'orgs_counter_callback',  
@@ -57,15 +68,51 @@ function pinchapoo_initialize_theme_options() {
         )
     );
      
+    add_settings_field( 
+        'number_of_orgs_desc',                      // ID used to identify the field throughout the theme
+        'Number of orgs supported description',                           // The label to the left of the option interface element
+        'orgs_counter_desc_callback',   // The name of the function responsible for rendering the option interface
+        'pinchapoo_settings',                          // The page on which this option will be displayed
+        'pinchapoo_settings_section',         // The name of the section to which this field belongs
+        array(                              // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to be the suffix to the number of organisations (ie: x organisations supported).'
+        )
+    );
+     
     // Finally, we register the fields with WordPress
-    register_setting(
+    unregister_setting(
         'general',
         'number_of_goods'
     );
      
-    register_setting(
+    unregister_setting(
         'general',
         'number_of_orgs'
+    );
+    unregister_setting(
+        'general',
+        'number_of_goods_desc'
+    );
+    unregister_setting(
+        'general',
+        'number_of_orgs_desc'
+    );
+		register_setting(
+        'pinchapoo_settings',
+        'number_of_goods'
+    );
+     
+    register_setting(
+        'pinchapoo_settings',
+        'number_of_orgs'
+    );
+    register_setting(
+        'pinchapoo_settings',
+        'number_of_goods_desc'
+    );
+    register_setting(
+        'pinchapoo_settings',
+        'number_of_orgs_desc'
     );
      
      
@@ -98,11 +145,21 @@ function pinchapoo_general_options_callback() {
 function goods_counter_callback($args) {
  		echo '<input name="number_of_goods" id="number_of_goods" type="text" value="' . get_option( 'number_of_goods' ) . '" />';
      
+}  
+
+function goods_counter_desc_callback($args) {
+ 		echo '<input name="number_of_goods_desc" id="number_of_goods_desc" type="text" value="' . get_option( 'number_of_goods_desc' ) . '" />';
+     
 } 
  
 function orgs_counter_callback($args) {     
 	echo '<input name="number_of_orgs" id="number_of_orgs" type="text" value="' . get_option( 'number_of_orgs' ) . '" />';
 
+} 
+
+function orgs_counter_desc_callback($args) {
+ 		echo '<input name="number_of_orgs_desc" id="number_of_orgs_desc" type="text" value="' . get_option( 'number_of_orgs_desc' ) . '" />';
+     
 } 
  
 ?>
