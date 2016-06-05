@@ -80,23 +80,6 @@ function pinchapoo_initialize_theme_options() {
     );
      
     // Finally, we register the fields with WordPress
-    unregister_setting(
-        'general',
-        'number_of_goods'
-    );
-     
-    unregister_setting(
-        'general',
-        'number_of_orgs'
-    );
-    unregister_setting(
-        'general',
-        'number_of_goods_desc'
-    );
-    unregister_setting(
-        'general',
-        'number_of_orgs_desc'
-    );
 		register_setting(
         'pinchapoo_settings',
         'number_of_goods'
