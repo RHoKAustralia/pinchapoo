@@ -41,13 +41,13 @@ Author URI: http://www.rhokaustralia.org/d
 				
 				<article class="half pinchapoo-blue squash">
 					<div class="content">
-						<span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> goods redistributed and counting</span>
+						<span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_goods_desc'); ?></span>
 					</div>
 				</article>
 				
 				<article class="half pinchapoo-blue squash">
 					<div class="content">
-						<span id="orgs_counter" class="counter">0</span><span id="orgs_desc" class="counter-description" style="display: none;"> organisations involved</span>
+						<span id="orgs_counter" class="counter">0</span><span id="orgs_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_orgs_desc'); ?></span>
 					</div>
 				</article>
 
