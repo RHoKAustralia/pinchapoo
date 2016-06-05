@@ -4076,3 +4076,15 @@
 		transform: translateX(0);
 		visibility: visible;
 	}
+	
+	#banner > article.pinchapoo-blue {
+		background: #1ca9a0;
+	}
+	
+	.counter { 
+		font-size: 4em;
+	}
+	
+	.counter-description {
+		display: inline;
+	}
