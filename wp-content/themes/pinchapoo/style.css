@@ -1697,12 +1697,12 @@ Author URI: http://www.rhokaustralia.org/
 		}
 
 		a:hover {
-			color: #53bed5 !important;
+			color: #1ca9a0 !important;
 			border-bottom-color: transparent;
 		}
 
 			a:hover:before {
-				color: #53bed5 !important;
+				color: #1ca9a0!important;
 			}
 
 	strong, b {
@@ -1835,7 +1835,7 @@ Author URI: http://www.rhokaustralia.org/
 	}
 
 	a {
-		color: #53bed5;
+		color: #1ca9a0;
 	}
 
 	strong, b {
@@ -2283,8 +2283,8 @@ Author URI: http://www.rhokaustralia.org/
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #53bed5;
-			box-shadow: 0 0 0 1px #53bed5;
+			border-color: #1ca9a0;
+			box-shadow: 0 0 0 1px #1ca9a0;
 		}
 
 	.select-wrapper:before {
@@ -2311,8 +2311,8 @@ Author URI: http://www.rhokaustralia.org/
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #53bed5;
-		box-shadow: 0 0 0 1px #53bed5;
+		border-color:#1ca9a0;
+		box-shadow: 0 0 0 1px #1ca9a0;
 	}
 
 	::-webkit-input-placeholder {
@@ -3174,7 +3174,7 @@ Author URI: http://www.rhokaustralia.org/
 	}
 
 		#header .logo {
-			background-color: #53bed5;
+			background-color: #1ca9a0;
 			color: #ffffff;
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3301,11 +3301,11 @@ Author URI: http://www.rhokaustralia.org/
 							}
 
 					#header nav > ul > li.active > a {
-						color: #53bed5;
+						color: #1ca9a0;
 					}
 
 						#header nav > ul > li.active > a:before {
-							color: #53bed5;
+							color: #1ca9a0;
 						}
 
 					#header nav > ul > li:first-child {
@@ -3417,7 +3417,7 @@ Author URI: http://www.rhokaustralia.org/
 			}
 
 			.dropotron li.active > a, .dropotron li:hover > a {
-				color: #53bed5 !important;
+				color: #1ca9a0 !important;
 			}
 
 		.dropotron.level-0 {
@@ -3465,7 +3465,7 @@ Author URI: http://www.rhokaustralia.org/
 		}
 
 		#banner a {
-			color: #53bed5;
+			color: #1ca9a0;
 		}
 
 		#banner strong, #banner b {
