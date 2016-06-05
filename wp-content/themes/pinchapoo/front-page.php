@@ -129,7 +129,7 @@ Author URI: http://www.rhokaustralia.org/d
                         <ul class="meta">
                         </ul>
                     </header>
-                    <p>If you had one minute to leave your house never to return….what would you take? Learn about the moment Pinchapoo was born.
+                    <p>If you had one minute to leave your house never to return... what would you take? Learn about the moment Pinchapoo was born.
                     </p>
                     <footer>
                         <ul class="actions">
@@ -160,7 +160,7 @@ Author URI: http://www.rhokaustralia.org/d
 
                         </ul>
                     </header>
-                    <p>Got some time you could lend us? There is a job for everyone……we’d love to have you aboard the army!</p>
+                    <p>Got some time you could lend us? There is a job for everyone... we’d love to have you aboard the army!</p>
                     <footer>
                         <ul class="actions">
                             <li><a href="/get-involved/volunteer/" class="button">Volunteer Now</a></li>
@@ -168,7 +168,7 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/media-centre/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
+                    <a href="/media-centre/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_17.png" alt="" /></a>
                     <header>
                         <h2><a href="/media-centre/">'Poo News</a></h2>
                         <ul class="meta">
@@ -183,7 +183,7 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/get-involved/fundraise/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
+                    <a href="/get-involved/fundraise/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_16.png" alt="" /></a>
                     <header>
                         <h2><a href="/get-involved/fundraise/">Fundraising</a></h2>
                         <ul class="meta">
