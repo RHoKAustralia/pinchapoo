@@ -85,46 +85,38 @@
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Mauris vitae</a></h2>
+                        <h2><a href="#">What is Pinchapoo?</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
+                            <!--<li>3 days ago</li>
                             <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+                            <li><a href="#" class="comments">1,423</a></li> -->
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Pinchapoo is proudly responsible for creating a cheeky hotel toiletry ‘pinching’ movement seven years ago… and for good reason!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Dapibus nulla</a></h2>
-                        <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
-                        </ul>
+                        <h2><a href="#">How Pinchapoo Began</a></h2>
+                        <ul class="meta"></ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Pinchapoo was founded by Kate Austin. This is her story.</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
+               <!-- <article>
+                    <a href="#" class="image"><img src="< ?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
                     <header>
                         <h2><a href="#">Dictum veroeros</a></h2>
-                        <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
-                        </ul>
+                        <ul class="meta"></ul>
                     </header>
                     <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
                     <footer>
@@ -132,7 +124,7 @@
                             <li><a href="#" class="button">Full Story</a></li>
                         </ul>
                     </footer>
-                </article>
+                </article> -->
             </div>
         </section>
 
