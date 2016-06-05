@@ -80,23 +80,6 @@ function pinchapoo_initialize_theme_options() {
     );
      
     // Finally, we register the fields with WordPress
-    unregister_setting(
-        'general',
-        'number_of_goods'
-    );
-     
-    unregister_setting(
-        'general',
-        'number_of_orgs'
-    );
-    unregister_setting(
-        'general',
-        'number_of_goods_desc'
-    );
-    unregister_setting(
-        'general',
-        'number_of_orgs_desc'
-    );
 		register_setting(
         'pinchapoo_settings',
         'number_of_goods'
@@ -119,15 +102,11 @@ function pinchapoo_initialize_theme_options() {
 } // end sandbox_initialize_theme_options
 
 function pinchapoo_settings_page_content() {
-	echo '<div class="wrap">
-		<h2>Pinchapoo</h2>
-		<form method="post" action="options.php">
-            ' . settings_fields( 'pinchapoo_settings' ) . '
-            ' . do_settings_sections( 'pinchapoo_settings' ) .'
-            ' . submit_button() . '
-								
-		</form>
-	</div>';
+	echo '<div class="wrap"><h2>Pinchapoo</h2><form method="post" action="options.php">';
+	echo settings_fields( 'pinchapoo_settings' );
+	echo do_settings_sections( 'pinchapoo_settings' );
+	echo submit_button();								
+	echo '</form></div>';
 }
  
 /* ------------------------------------------------------------------------ *
