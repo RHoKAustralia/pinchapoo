@@ -4097,7 +4097,9 @@ Author URI: http://www.rhokaustralia.org/
 	}
 	
 	.counter-description {
-		display: inline;
+		display: block !important;
+		margin-top: -1em;
+		margin-bottom: 1em;
 	}
 	
 	#banner > article.squash {
