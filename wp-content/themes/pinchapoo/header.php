@@ -12,21 +12,22 @@
         <?php
         $args = array(
             'parent' => 0,
-            'post_type' => 'page',
-            'post_status' => 'publish',
             'sort_column' => 'menu-order',
             'sort_order' => 'asc',
+            'post_type' => 'page',
+            'post_status' => 'publish'
         );
 
         $pages = get_pages($args);
             foreach ( $pages as $page ) {
 
                 $args = array(
+                    'sort_column' => 'menu-order',
+                    'sort_order' => 'asc',
                     'child_of' => $page->ID,
                     'post_type' => 'page',
                     'post_status' => 'publish',
-                    'sort_column' => 'menu-order',
-                    'sort_order' => 'asc',
+
                 );
 
                 $children = get_pages($args);
