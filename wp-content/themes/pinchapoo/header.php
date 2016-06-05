@@ -13,7 +13,8 @@
         $args = array(
             'parent' => 0,
             'post_type' => 'page',
-            'post_status' => 'publish'
+            'post_status' => 'publish',
+            'sort_column' => 'menu-order'
         );
 
         $pages = get_pages($args);
