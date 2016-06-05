@@ -12,7 +12,7 @@
         <?php
         $args = array(
             'parent' => 0,
-            'sort_column' => 'menu-order',
+            'sort_column' => 'menu_order',
             'sort_order' => 'asc',
             'post_type' => 'page',
             'post_status' => 'publish'
@@ -22,7 +22,7 @@
             foreach ( $pages as $page ) {
 
                 $args = array(
-                    'sort_column' => 'menu-order',
+                    'sort_column' => 'menu_order',
                     'sort_order' => 'asc',
                     'child_of' => $page->ID,
                     'post_type' => 'page',
