@@ -45,13 +45,15 @@ Author URI: http://www.rhokaustralia.org/d
 					</div>
 				</article>
 				<script>
-					var goodsCounter = new Odometer({
-					  selector: '#goods_counter',
-					  value: 0,
-					});
-					setTimeout(1000, function() {
-						goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
-						$('#goods_desc').show({duration: 400, easing: 'swing'});
+					$(document).ready(function() {
+						var goodsCounter = new Odometer({
+						  selector: '#goods_counter',
+						  value: 0,
+						});
+						setTimeout(1000, function() {
+							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
+							$('#goods_desc').show({duration: 400, easing: 'swing'});
+						});
 					});
 				</script>
 
