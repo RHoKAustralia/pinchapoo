@@ -1,4 +1,4 @@
-<?php /* Template Name: AboutPage */ ?>
+<?php /* Template Name: GetInvolvedPage */ ?>
 
 <!DOCTYPE HTML>
 <html>
