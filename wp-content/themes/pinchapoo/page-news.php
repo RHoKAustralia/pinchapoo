@@ -1,4 +1,4 @@
-<?php /* Template Name: HelpPage */ ?>
+<?php /* Template Name: NewsPage */ ?>
 
 <!DOCTYPE HTML>
 <html>
