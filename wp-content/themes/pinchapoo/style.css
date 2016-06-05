@@ -4087,6 +4087,10 @@ Author URI: http://www.rhokaustralia.org/
 		background: #1ca9a0;
 	}
 	
+	#banner > article.pinchapoo-blue:before {
+		background: #1ca9a0;
+	}
+	
 	.counter { 
 		font-size: 4em;
 		margin-right: 0.2em;
