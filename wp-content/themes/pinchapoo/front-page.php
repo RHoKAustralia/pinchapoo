@@ -102,48 +102,43 @@ Author URI: http://www.rhokaustralia.org/d
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Mauris vitae</a></h2>
+                        <h2><a href="#">About Us</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
+                            <!--<li>3 days ago</li>
                             <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+                            <li><a href="#" class="comments">1,423</a></li> -->
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Dapibus nulla</a></h2>
+                        <h2><a href="#">Donate Toiletries</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Donate Now</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Dictum veroeros</a></h2>
+                        <h2><a href="#">Fundraise</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
                             <li><a href="#" class="button">Full Story</a></li>
@@ -153,14 +148,12 @@ Author URI: http://www.rhokaustralia.org/d
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Lorem sed magna</a></h2>
+                        <h2><a href="#">Volunteer</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
                             <li><a href="#" class="button">Full Story</a></li>
@@ -170,34 +163,30 @@ Author URI: http://www.rhokaustralia.org/d
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Vitae adipiscing</a></h2>
+                        <h2><a href="#">'Poo News</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Aliquam phasellus</a></h2>
+                        <h2><a href="#">Contact Us</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
