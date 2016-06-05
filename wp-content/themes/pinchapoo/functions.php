@@ -80,7 +80,7 @@ function pinchapoo_settings_page_content() {
             ' . submit_button() . '
 								
 		</form>
-	</div>'
+	</div>';
 }
  
 /* ------------------------------------------------------------------------ *
