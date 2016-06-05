@@ -238,10 +238,10 @@ Author URI: http://www.rhokaustralia.org/d
 						  el: document.getElementById('goods_counter'),
 						  value: 0
 						});
-						setTimeout(1000, function() {
+						setTimeout(function() {
 							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
 							$('#goods_desc').show({duration: 400, easing: 'swing'});
-						});
+						}, 1000);
 					});
 				</script>
 </body>
