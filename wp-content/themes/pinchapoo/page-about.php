@@ -83,7 +83,7 @@
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_birthday.png" alt="" /></a>
                     <header>
                         <h2><a href="#">What is Pinchapoo?</a></h2>
                         <ul class="meta">
@@ -100,7 +100,7 @@
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_about_kate.png" alt="" /></a>
                     <header>
                         <h2><a href="#">How Pinchapoo Began</a></h2>
                         <ul class="meta"></ul>
