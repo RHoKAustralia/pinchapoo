@@ -4089,6 +4089,7 @@ Author URI: http://www.rhokaustralia.org/
 	
 	.counter { 
 		font-size: 4em;
+		margin-right: 0.2em;
 	}
 	
 	.counter-description {
