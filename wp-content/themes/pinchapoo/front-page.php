@@ -106,104 +106,94 @@ Author URI: http://www.rhokaustralia.org/d
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
+                    <a href="/about-us/what-is-pinchapoo/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Mauris vitae</a></h2>
+                        <h2><a href="/about-us/what-is-pinchapoo/">What is Pinchapoo?</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
+                            <!--<li>3 days ago</li>
                             <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+                            <li><a href="#" class="comments">1,423</a></li> -->
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Pinch-a-what? Learn how to become part of the hotel toiletry pinching movement sweeping Oz!!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/about-us/what-is-pinchapoo/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
+                    <a href="/about-us/how-pinchapoo-began/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Dapibus nulla</a></h2>
+                        <h2><a href="/about-us/how-pinchapoo-began/">How Pinchapoo Began</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>If you had one minute to leave your house never to return….what would you take? Learn about the moment Pinchapoo was born.
+                    </p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/about-us/how-pinchapoo-began/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
+                    <a href="/get-involved/donate-toiletries/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Dictum veroeros</a></h2>
+                        <h2><a href="/get-involved/donate-toiletries/">How to Donate/a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>It’s easy……we have someone just near you! Find your closest collection co-ordinator now! </p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/get-involved/donate-toiletries/" class="button">Donate Now</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
+                    <a href="/get-involved/volunteer/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Lorem sed magna</a></h2>
+                        <h2><a href="/get-involved/volunteer/">Volunteer</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Got some time you could lend us? There is a job for everyone……we’d love to have you aboard the army!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/get-involved/volunteer/" class="button">Volunteer Now</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
+                    <a href="/media-centre/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Vitae adipiscing</a></h2>
+                        <h2><a href="/media-centre/">'Poo News</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Did you hear the news? Well in case you missed it….here it is! </p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/media-centre/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
+                    <a href="/get-involved/fundraise/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Aliquam phasellus</a></h2>
+                        <h2><a href="/get-involved/fundraise/">Fundraising</a></h2>
                         <ul class="meta">
-                            <li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li>
+
                         </ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Don’t travel much but would still like to help? You can! Find out how now!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/get-involved/fundraise/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
