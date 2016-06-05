@@ -46,7 +46,7 @@ Author URI: http://www.rhokaustralia.org/d
 				</article>
 				<script>
 					setTimeout(1000, function() {
-						odometer.innerHTML = "<?php echo get_option('number_of_goods'); ?>";
+						//odometer.innerHTML = "<?php echo get_option('number_of_goods'); ?>";
 						$('#goods_desc').show({duration: 400, easing: 'swing'});
 					});
 				</script>
