@@ -31,7 +31,7 @@ Author URI: http://www.rhokaustralia.org/d
             <img src="<?php bloginfo('template_url'); ?>/images/banner_products.png" alt="" data-position="center" />
             <div class="content">
                 <h2><a href="#">A CHEEKY WAY TO HELP</a></h2>
-                <p>Lorem feugiat veroeros dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat tempus adipiscing.</p>
+                <p>Pinchapoo has been distributing ‘pinched’ hotel toiletries since 2009, helping improve the quality of life for disadvantaged people around Australia.</p>
                 <ul class="actions">
                     <li><a href="#" class="button">Read More</a></li>
                 </ul>
