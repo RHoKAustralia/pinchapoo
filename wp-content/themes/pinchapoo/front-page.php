@@ -41,7 +41,7 @@ Author URI: http://www.rhokaustralia.org/d
 				
 				<article class="full pinchapoo-blue">
 					<div class="content">
-						<h2><div id="odometer" class="odometer"> <?php echo get_option('goods_counter_callback') ?> goods redistributed and counting</div></h2>
+						<h2><div id="odometer" class="odometer"> <?php echo get_option('goods_counter_callback'); ?> goods redistributed and counting</div></h2>
 					</div>
 				</article>
 
