@@ -41,7 +41,7 @@ Author URI: http://www.rhokaustralia.org/d
 				
 				<article class="full pinchapoo-blue">
 					<div class="content">
-						<h2><div id="goods_counter">0</div><span id="goods_desc" style="visibility: hidden;"> goods redistributed and counting</span></h2>
+						<h2><div id="goods_counter">0</div><span id="goods_desc" style="display: none;"> goods redistributed and counting</span></h2>
 					</div>
 				</article>
 
