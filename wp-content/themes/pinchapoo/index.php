@@ -88,7 +88,7 @@ Author URI: http://www.rhokaustralia.org/
         </section>
 
         <!-- Posts -->
-        <section class="main">
+        <!--<section class="main">
             <div class="posts">
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
@@ -193,7 +193,7 @@ Author URI: http://www.rhokaustralia.org/
                     </footer>
                 </article>
             </div>
-        </section>
+        </section> -->
 
     </div>
 
