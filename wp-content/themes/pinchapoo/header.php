@@ -14,7 +14,8 @@
             'parent' => 0,
             'post_type' => 'page',
             'post_status' => 'publish',
-            'sort_column' => 'menu-order'
+            'sort_column' => 'menu-order',
+            'sort_order' => 'asc',
         );
 
         $pages = get_pages($args);
@@ -24,7 +25,8 @@
                     'child_of' => $page->ID,
                     'post_type' => 'page',
                     'post_status' => 'publish',
-                    'sort_column' => 'menu-order'
+                    'sort_column' => 'menu-order',
+                    'sort_order' => 'asc',
                 );
 
                 $children = get_pages($args);
