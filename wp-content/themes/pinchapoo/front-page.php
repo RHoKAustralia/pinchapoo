@@ -199,18 +199,18 @@ Author URI: http://www.rhokaustralia.org/d
                 </article>
                 
             </div>
-            <footer class="major">
-               <!-- <ul class="pagination">
-                    <!--<li><a href="#" class="previous">Prev</a></li>
-                    <li><a href="#" class="page active">1</a></li>
-                    <li><a href="#" class="page">2</a></li>
-                    <li><a href="#" class="page">3</a></li>
-                    <li><span class="extra">&hellip;</span></li>
-                    <li><a href="#" class="page">19</a></li>
-                    <li><a href="#" class="page">20</a></li>
-                    <li><a href="#" class="next">Next</a></li>
-                </ul> -->
-            </footer>
+            <!--<footer class="major">
+              <ul class="pagination">
+                   <!--<li><a href="#" class="previous">Prev</a></li>
+                   <li><a href="#" class="page active">1</a></li>
+                   <li><a href="#" class="page">2</a></li>
+                   <li><a href="#" class="page">3</a></li>
+                   <li><span class="extra">&hellip;</span></li>
+                   <li><a href="#" class="page">19</a></li>
+                   <li><a href="#" class="page">20</a></li>
+                   <li><a href="#" class="next">Next</a></li>
+               </ul>
+            </footer>-->
         </section>
 
     </div>
