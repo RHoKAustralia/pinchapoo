@@ -106,7 +106,7 @@ Author URI: http://www.rhokaustralia.org/d
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="/about-us/what-is-pinchapoo/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
+                    <a href="/about-us/what-is-pinchapoo/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_birthday.png" alt="" /></a>
                     <header>
                         <h2><a href="/about-us/what-is-pinchapoo/">What is Pinchapoo?</a></h2>
                         <ul class="meta">
@@ -123,7 +123,7 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/about-us/how-pinchapoo-began/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
+                    <a href="/about-us/how-pinchapoo-began/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_about_kate.png" alt="" /></a>
                     <header>
                         <h2><a href="/about-us/how-pinchapoo-began/">How Pinchapoo Began</a></h2>
                         <ul class="meta">
@@ -138,9 +138,9 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/get-involved/donate-toiletries/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
+                    <a href="/get-involved/donate-toiletries/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_1.png" alt="" /></a>
                     <header>
-                        <h2><a href="/get-involved/donate-toiletries/">How to Donate/a></h2>
+                        <h2><a href="/get-involved/donate-toiletries/">How to Donate</a></h2>
                         <ul class="meta">
 
                         </ul>
@@ -153,7 +153,7 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/get-involved/volunteer/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
+                    <a href="/get-involved/volunteer/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_11.png" alt="" /></a>
                     <header>
                         <h2><a href="/get-involved/volunteer/">Volunteer</a></h2>
                         <ul class="meta">
@@ -200,8 +200,8 @@ Author URI: http://www.rhokaustralia.org/d
                 
             </div>
             <footer class="major">
-                <ul class="pagination">
-                    <!--<li><a href="#" class="previous">Prev</a></li>-->
+               <!-- <ul class="pagination">
+                    <!--<li><a href="#" class="previous">Prev</a></li>
                     <li><a href="#" class="page active">1</a></li>
                     <li><a href="#" class="page">2</a></li>
                     <li><a href="#" class="page">3</a></li>
@@ -209,7 +209,7 @@ Author URI: http://www.rhokaustralia.org/d
                     <li><a href="#" class="page">19</a></li>
                     <li><a href="#" class="page">20</a></li>
                     <li><a href="#" class="next">Next</a></li>
-                </ul>
+                </ul> -->
             </footer>
         </section>
 
