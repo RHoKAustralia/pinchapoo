@@ -30,10 +30,10 @@ Author URI: http://www.rhokaustralia.org/d
         <article class="full">
             <img src="<?php bloginfo('template_url'); ?>/images/banner_products.png" alt="" data-position="center" />
             <div class="content">
-                <h2><a href="#">Ipsum consequat lorem</a></h2>
+                <h2><a href="#">A CHEEKY WAY TO HELP</a></h2>
                 <p>Lorem feugiat veroeros dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat tempus adipiscing.</p>
                 <ul class="actions">
-                    <li><a href="#" class="button">Full Story</a></li>
+                    <li><a href="#" class="button">Read More</a></li>
                 </ul>
             </div>
         </article>
