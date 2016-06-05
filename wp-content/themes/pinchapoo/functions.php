@@ -18,7 +18,7 @@ function create_pinchapoo_settings_page() {
 				'Pinchapoo',
 				'manage_options',
 				'pinchapoo_settings',
-				array( $this, 'pinchapoo_settings_page_content' ),
+				'',
 				'dashicons-admin-plugins',
 				 100
 	  );
