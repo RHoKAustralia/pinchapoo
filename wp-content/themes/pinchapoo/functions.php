@@ -119,15 +119,11 @@ function pinchapoo_initialize_theme_options() {
 } // end sandbox_initialize_theme_options
 
 function pinchapoo_settings_page_content() {
-	echo '<div class="wrap">
-		<h2>Pinchapoo</h2>
-		<form method="post" action="options.php">
-            ' . settings_fields( 'pinchapoo_settings' ) . '
-            ' . do_settings_sections( 'pinchapoo_settings' ) .'
-            ' . submit_button() . '
-								
-		</form>
-	</div>';
+	echo '<div class="wrap"><h2>Pinchapoo</h2><form method="post" action="options.php">';
+	echo settings_fields( 'pinchapoo_settings' );
+	echo do_settings_sections( 'pinchapoo_settings' );
+	echo submit_button();								
+	echo '</form></div>';
 }
  
 /* ------------------------------------------------------------------------ *
