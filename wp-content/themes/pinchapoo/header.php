@@ -22,7 +22,8 @@
                 $args = array(
                     'child_of' => $page->ID,
                     'post_type' => 'page',
-                    'post_status' => 'publish'
+                    'post_status' => 'publish',
+                    'sort_column' => 'menu-order'
                 );
 
                 $children = get_pages($args);
