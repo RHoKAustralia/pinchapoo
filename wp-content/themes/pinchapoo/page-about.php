@@ -112,19 +112,19 @@
                         </ul>
                     </footer>
                 </article>
-               <!-- <article>
+               <article>
                     <a href="#" class="image"><img src="< ?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Dictum veroeros</a></h2>
+                        <h2><a href="#">How to Donate</a></h2>
                         <ul class="meta"></ul>
                     </header>
-                    <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+                    <p>Words...</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="#" class="button">Donate Now</a></li>
                         </ul>
                     </footer>
-                </article> -->
+                </article>
             </div>
         </section>
 
