@@ -86,7 +86,7 @@ Author URI: http://www.rhokaustralia.org/d
                         <li><a href="#" class="comments">1,423</a></li>
                     </ul>
                 </header>
-                <a href="#" class="image main"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
+                <a href="#" class="image main"><img src="< ?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
                 <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
                 <footer>
                     <ul class="actions">
@@ -100,93 +100,94 @@ Author URI: http://www.rhokaustralia.org/d
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
+                    <a href="/about-us/what-is-pinchapoo/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic05.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">About Us</a></h2>
+                        <h2><a href="/about-us/what-is-pinchapoo/">What is Pinchapoo?</a></h2>
                         <ul class="meta">
                             <!--<li>3 days ago</li>
                             <li><a href="#" class="favorites">2,174</a></li>
                             <li><a href="#" class="comments">1,423</a></li> -->
                         </ul>
                     </header>
-                    <p>Words...</p>
+                    <p>Pinch-a-what? Learn how to become part of the hotel toiletry pinching movement sweeping Oz!!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Read More</a></li>
+                            <li><a href="/about-us/what-is-pinchapoo/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
+                    <a href="/about-us/how-pinchapoo-began/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic06.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Donate Toiletries</a></h2>
+                        <h2><a href="/about-us/how-pinchapoo-began/">How Pinchapoo Began</a></h2>
                         <ul class="meta">
                         </ul>
                     </header>
-                    <p>Words...</p>
+                    <p>If you had one minute to leave your house never to return….what would you take? Learn about the moment Pinchapoo was born.
+                    </p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Donate Now</a></li>
+                            <li><a href="/about-us/how-pinchapoo-began/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
+                    <a href="/get-involved/donate-toiletries/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic07.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Fundraise</a></h2>
-                        <ul class="meta">
-
-                        </ul>
-                    </header>
-                    <p>Words...</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
-                        </ul>
-                    </footer>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
-                    <header>
-                        <h2><a href="#">Volunteer</a></h2>
+                        <h2><a href="/get-involved/donate-toiletries/">How to Donate/a></h2>
                         <ul class="meta">
 
                         </ul>
                     </header>
-                    <p>Words...</p>
+                    <p>It’s easy……we have someone just near you! Find your closest collection co-ordinator now! </p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li><a href="/get-involved/donate-toiletries/" class="button">Donate Now</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
+                    <a href="/get-involved/volunteer/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic08.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">'Poo News</a></h2>
+                        <h2><a href="/get-involved/volunteer/">Volunteer</a></h2>
                         <ul class="meta">
 
                         </ul>
                     </header>
-                    <p>Words...</p>
+                    <p>Got some time you could lend us? There is a job for everyone……we’d love to have you aboard the army!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Read More</a></li>
+                            <li><a href="/get-involved/volunteer/" class="button">Volunteer Now</a></li>
                         </ul>
                     </footer>
                 </article>
                 <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
+                    <a href="/media-centre/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic09.jpg" alt="" /></a>
                     <header>
-                        <h2><a href="#">Contact Us</a></h2>
+                        <h2><a href="/media-centre/">'Poo News</a></h2>
                         <ul class="meta">
 
                         </ul>
                     </header>
-                    <p>Words...</p>
+                    <p>Did you hear the news? Well in case you missed it….here it is! </p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Read More</a></li>
+                            <li><a href="/media-centre/" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+                <article>
+                    <a href="/get-involved/fundraise/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/pic10.jpg" alt="" /></a>
+                    <header>
+                        <h2><a href="/get-involved/fundraise/">Fundraising</a></h2>
+                        <ul class="meta">
+
+                        </ul>
+                    </header>
+                    <p>Don’t travel much but would still like to help? You can! Find out how now!</p>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="/get-involved/fundraise/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
