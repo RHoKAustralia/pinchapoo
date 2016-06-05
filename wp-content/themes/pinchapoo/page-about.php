@@ -85,7 +85,7 @@
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_birthday.png" alt="" /></a>
                     <header>
-                        <h2><a href="#">What is Pinchapoo?</a></h2>
+                        <h2><a href="/about-us/how-pinchapoo-began">What is Pinchapoo?</a></h2>
                         <ul class="meta">
                             <!--<li>3 days ago</li>
                             <li><a href="#" class="favorites">2,174</a></li>
@@ -102,7 +102,7 @@
                 <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_about_kate.png" alt="" /></a>
                     <header>
-                        <h2><a href="#">How Pinchapoo Began</a></h2>
+                        <h2><a href="/about-us/what-is-pinchapoo/">How Pinchapoo Began</a></h2>
                         <ul class="meta"></ul>
                     </header>
                     <p>Pinchapoo was founded by Kate Austin. This is her story.</p>
