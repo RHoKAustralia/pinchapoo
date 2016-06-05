@@ -95,7 +95,7 @@
                     <p>Pinchapoo is proudly responsible for creating a cheeky hotel toiletry ‘pinching’ movement seven years ago… and for good reason!</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Read More</a></li>
+                            <li><a href="/about-us/how-pinchapoo-began" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
@@ -108,20 +108,20 @@
                     <p>Pinchapoo was founded by Kate Austin. This is her story.</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Read More</a></li>
+                            <li><a href="/about-us/what-is-pinchapoo/" class="button">Read More</a></li>
                         </ul>
                     </footer>
                 </article>
                <article>
                     <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner.png" alt="" /></a>
                     <header>
-                        <h2><a href="#">How to Donate</a></h2>
+                        <h2><a href="/get-involved/donate-toiletries/">How to Donate</a></h2>
                         <ul class="meta"></ul>
                     </header>
                     <p>Words...</p>
                     <footer>
                         <ul class="actions">
-                            <li><a href="#" class="button">Donate Now</a></li>
+                            <li><a href="/get-involved/donate-toiletries/" class="button">Donate Now</a></li>
                         </ul>
                     </footer>
                 </article>
