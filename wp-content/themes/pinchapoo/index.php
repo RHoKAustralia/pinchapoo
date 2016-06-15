@@ -16,6 +16,7 @@ Author URI: http://www.rhokaustralia.org/
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/ie8.css" /><![endif]-->
+    <?php wp_head(); ?>
 </head>
 <body>
 
