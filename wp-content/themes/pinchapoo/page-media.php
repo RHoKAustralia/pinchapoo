@@ -59,19 +59,14 @@
 											  <?php foreach ( get_bookmarks( array( 'category_name'  => 'Media' )) as $bookmark ) : ?>
 	 				                <article>
 															<?php if ( $bookmark->link_image != null ) {
-																$output = "";
 																if ( strpos( $bookmark->link_image, 'http' ) === 0 ) {
-																	$output .= "<img src=\"$bookmark->link_image\" $alt $title />";
+																	echo "<img src=\"$bookmark->link_image\" $alt $title />";
 																} 
 																else 
 																{ 
-																	$output .= "<img src=\"" . get_option('siteurl') . "$bookmark->link_image\" $alt $title />";
-																}
-																if ( $r['show_name'] ) {
-																	$output .= " $name";
+																	echo "<img src=\"" . get_option('siteurl') . "$bookmark->link_image\" $alt $title />";
 																}
 															} 
-															echo $output;
 													?>
 	 				                    <header>
 	 				                        <h2><a href="<?php echo $bookmark->link_url; ?>"><?php echo $bookmark->link_name; ?></a></h2>
