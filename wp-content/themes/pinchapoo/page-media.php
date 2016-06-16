@@ -71,6 +71,7 @@
 	 				                    <header>
 	 				                        <h2><a href="<?php echo $bookmark->link_url; ?>"><?php echo $bookmark->link_name; ?></a></h2>
 	 				                    </header>
+															<p><?php echo $bookmark->link_description ?></p>
 	 				                </article>
 												<?php endforeach ?>
 				                

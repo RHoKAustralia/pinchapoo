@@ -3083,6 +3083,10 @@ Author URI: http://www.rhokaustralia.org/
 				border-bottom-width: 0;
 			}
 
+			.posts > article img {
+				max-width: 100%;
+			}
+
 		@media screen and (max-width: 1280px) {
 
 			.posts > article {
