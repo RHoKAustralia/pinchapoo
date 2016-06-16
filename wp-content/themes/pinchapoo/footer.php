@@ -30,7 +30,7 @@
 
             <p>While we encourage the cheeky pinching of your hotel toiletries, we also accept the donation of full size toiletries and other goods.</p>
             <ul class="actions">
-                <li><a href="/get-involved/donate-toiletries/" class="button">Donate Now</a></li>
+                <li><a href="/get-involved/donate-toiletries/" class="button big special">Donate Now</a></li>
             </ul>
         </section>
     </div>
