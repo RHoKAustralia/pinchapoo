@@ -59,7 +59,7 @@
 											  <?php foreach ( get_bookmarks( array( 'category_name'  => 'Media' )) as $bookmark ); ?>
 	 				                <article>
 															<?php if ( $bookmark->link_image != null ) {
-																$output = ""
+																$output = "";
 																if ( strpos( $bookmark->link_image, 'http' ) === 0 ) {
 																	$output .= "<img src=\"$bookmark->link_image\" $alt $title />";
 																} 
@@ -71,10 +71,10 @@
 																	$output .= " $name";
 																}
 															} 
-															echo $output
+															echo $output;
 													?>
 	 				                    <header>
-	 				                        <h2><a href="<?php echo $bookmark->link_url ?>"><?php echo $bookmark->link_name ?></a></h2>
+	 				                        <h2><a href="<?php echo $bookmark->link_url; ?>"><?php echo $bookmark->link_name; ?></a></h2>
 	 				                    </header>
 	 				                </article>
 												<?php endforeach ?>
