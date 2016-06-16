@@ -81,50 +81,27 @@
 
         <!-- Posts -->
         <section class="main">
-            <div class="posts">
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_birthday.png" alt="" /></a>
-                    <header>
-                        <h2><a href="/media-centre/social/">Social Feed</a></h2>
-                        <ul class="meta">
-                            <!--<li>3 days ago</li>
-                            <li><a href="#" class="favorites">2,174</a></li>
-                            <li><a href="#" class="comments">1,423</a></li> -->
-                        </ul>
-                    </header>
-                    <p>Words...</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="/media-centre/social/" class="button">Read More</a></li>
-                        </ul>
-                    </footer>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_about_kate.png" alt="" /></a>
-                    <header>
-                        <h2><a href="/media-centre/latest-gossip/">Latest Goss</a></h2>
-                        <ul class="meta"></ul>
-                    </header>
-                    <p>Words...</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="/media-centre/latest-gossip/" class="button">Read More</a></li>
-                        </ul>
-                    </footer>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner.png" alt="" /></a>
-                    <header>
-                        <h2><a href="/media-centre/in-the-media/">In The Media</a></h2>
-                        <ul class="meta"></ul>
-                    </header>
-                    <p>Words...</p>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="/media-centre/in-the-media/" class="button">Read More</a></li>
-                        </ul>
-                    </footer>
-                </article>
+            <div class="postlist">
+								<?php
+									$args = array( 'posts_per_page' => 5, 'category_name' => 'Latest Goss' );
+
+									$gossposts = get_posts( $args );
+									foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+		                <article>
+                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
+		                    <header>
+														<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+		                    </header>
+		                    <p><?php the_content(); ?></p>
+		                    <footer>
+		                        <ul class="actions">
+		                            <li><a href="<?php the_permalink(); ?>" class="button">Read More</a></li>
+		                        </ul>
+		                    </footer>
+		                </article>
+									<?php endforeach; 
+									wp_reset_postdata();
+								?>
             </div>
         </section>
 
