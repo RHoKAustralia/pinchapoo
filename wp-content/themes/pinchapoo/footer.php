@@ -12,7 +12,7 @@
             </ul>
         </section>
         <section>
-            <form method="post" action="#">
+            <!--<form method="post" action="#">
                 <div class="field half first">
                     <input type="text" name="name" id="name" placeholder="Name" />
                 </div>
@@ -25,7 +25,9 @@
                 <ul class="actions">
                     <li><input type="submit" value="Send Message" /></li>
                 </ul>
-            </form>
+            </form> -->
+            <p>While we can’t do what we do without your pinching efforts, financial donations are vital too. We have DGR status, which means that all donations over $2 are tax deductible.</p>
+
         </section>
     </div>
     <div class="copyright">
