@@ -24,8 +24,6 @@
 
         <section class="main">
             <div class="inner">
-
-                <?php wp_list_bookmarks( 'category_name=Media' ); ?>
                 <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post(); ?>
                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -57,7 +55,27 @@
                         </div><!--end navigation-->
                         <?php else : ?>
                         <?php endif; ?>
-
+				            <div class="posts">
+											  <?php foreach ( get_bookmarks( array( 'category_name'  => 'Media' )) as $bookmark ) : ?>
+	 				                <article>
+															<?php if ( $bookmark->link_image != null ) {
+																if ( strpos( $bookmark->link_image, 'http' ) === 0 ) {
+																	echo "<img src=\"$bookmark->link_image\" />";
+																} 
+																else 
+																{ 
+																	echo "<img src=\"" . get_option('siteurl') . "$bookmark->link_image\" />";
+																}
+															} 
+													?>
+	 				                    <header>
+	 				                        <h2><a href="<?php echo $bookmark->link_url; ?>"><?php echo $bookmark->link_name; ?></a></h2>
+	 				                    </header>
+	 				                </article>
+												<?php endforeach ?>
+				                
+											</div>
+												
 
 
                         <!--  <h2><a href="#">Etiam feugiat tempus veroeros lorem</a></h2>
