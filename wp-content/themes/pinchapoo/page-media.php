@@ -60,11 +60,11 @@
 	 				                <article>
 															<?php if ( $bookmark->link_image != null ) {
 																if ( strpos( $bookmark->link_image, 'http' ) === 0 ) {
-																	echo "<img src=\"$bookmark->link_image\" $alt $title />";
+																	echo "<img src=\"$bookmark->link_image\" />";
 																} 
 																else 
 																{ 
-																	echo "<img src=\"" . get_option('siteurl') . "$bookmark->link_image\" $alt $title />";
+																	echo "<img src=\"" . get_option('siteurl') . "$bookmark->link_image\" />";
 																}
 															} 
 													?>
