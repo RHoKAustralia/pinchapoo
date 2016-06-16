@@ -25,6 +25,7 @@
         <section class="main">
             <div class="inner">
 
+                <?php wp_list_bookmarks( 'category_name=Media' ); ?>
                 <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post(); ?>
                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -40,7 +41,6 @@
                     <div class="entry clear">
                         <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
                         <?php the_content(); ?>
-                        
                         
                         
                         <!--< ?php edit_post_link(); ?> -->
