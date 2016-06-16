@@ -1697,12 +1697,12 @@ Author URI: http://www.rhokaustralia.org/
 		}
 
 		a:hover {
-			color: #1ca9a0 !important;
+			color: #ec008f!important;
 			border-bottom-color: transparent;
 		}
 
 			a:hover:before {
-				color: #1ca9a0!important;
+				color: #ec008f!important;
 			}
 
 	strong, b {
@@ -1835,7 +1835,7 @@ Author URI: http://www.rhokaustralia.org/
 	}
 
 	a {
-		color: #1ca9a0;
+		color: #ec008f;
 	}
 
 	strong, b {
@@ -2283,8 +2283,8 @@ Author URI: http://www.rhokaustralia.org/
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #1ca9a0;
-			box-shadow: 0 0 0 1px #1ca9a0;
+			border-color: #ec008f;
+			box-shadow: 0 0 0 1px #ec008f;
 		}
 
 	.select-wrapper:before {
@@ -2311,8 +2311,8 @@ Author URI: http://www.rhokaustralia.org/
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color:#1ca9a0;
-		box-shadow: 0 0 0 1px #1ca9a0;
+		border-color: #ec008f;
+		box-shadow: 0 0 0 1px #ec008f;
 	}
 
 	::-webkit-input-placeholder {
@@ -3214,11 +3214,11 @@ Author URI: http://www.rhokaustralia.org/
 			}
 
 			#header .logo:hover {
-				background-color: #67c6da;
+				background-color: #ec008f;
 			}
 
 			#header .logo:active {
-				background-color: #3fb6d0;
+				background-color: #ec008f;
 			}
 
 			#header .logo > :last-child {
@@ -3301,11 +3301,11 @@ Author URI: http://www.rhokaustralia.org/
 							}
 
 					#header nav > ul > li.active > a {
-						color: #1ca9a0;
+						color: #ec008f;
 					}
 
 						#header nav > ul > li.active > a:before {
-							color: #1ca9a0;
+							color: #ec008f;
 						}
 
 					#header nav > ul > li:first-child {
