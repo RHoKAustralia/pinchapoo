@@ -81,28 +81,30 @@
 
         <!-- Posts -->
         <section class="main">
-            <div class="postlist">
-								<?php
-									$args = array( 'posts_per_page' => 5, 'category_name' => 'Latest Goss' );
+            <div class="inner">
+	            <div class="postlist">
+									<?php
+										$args = array( 'posts_per_page' => 5, 'category_name' => 'Latest Goss' );
 
-									$gossposts = get_posts( $args );
-									foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
-		                <article>
-                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
-		                    <header>
-														<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		                    </header>
-		                    <p><?php the_content(); ?></p>
-		                    <footer>
-		                        <ul class="actions">
-		                            <li><a href="<?php the_permalink(); ?>" class="button">Read More</a></li>
-		                        </ul>
-		                    </footer>
-		                </article>
-									<?php endforeach; 
-									wp_reset_postdata();
-								?>
-            </div>
+										$gossposts = get_posts( $args );
+										foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+			                <article>
+	                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
+			                    <header>
+															<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			                    </header>
+			                    <p><?php the_excerpt(); ?></p>
+			                    <footer>
+			                        <ul class="actions">
+			                            <li><a href="<?php the_permalink(); ?>" class="button">Read More</a></li>
+			                        </ul>
+			                    </footer>
+			                </article>
+										<?php endforeach; 
+										wp_reset_postdata();
+									?>
+	            </div>
+					</div>
         </section>
 
     </div>
