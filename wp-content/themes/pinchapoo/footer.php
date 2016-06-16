@@ -27,7 +27,9 @@
                 </ul>
             </form> -->
             <p>While we can’t do what we do without your pinching efforts, financial donations are vital too. We have DGR status, which means that all donations over $2 are tax deductible.</p>
-
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3F3XRE3FSGCUS">
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donatenow_LG.gif" alt="Donate Now Button" />
+            </a>
             <p>While we encourage the cheeky pinching of your hotel toiletries, we also accept the donation of full size toiletries and other goods.</p>
             <ul class="actions">
                 <li><a href="/get-involved/donate-toiletries/" class="button big special">Donate Now</a></li>
