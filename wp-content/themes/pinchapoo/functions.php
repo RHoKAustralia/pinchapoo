@@ -98,7 +98,6 @@ function pinchapoo_initialize_theme_options() {
         'number_of_orgs_desc'
     );
      
-     
 } // end sandbox_initialize_theme_options
 
 function pinchapoo_settings_page_content() {
@@ -140,5 +139,10 @@ function orgs_counter_desc_callback($args) {
  		echo '<input name="number_of_orgs_desc" id="number_of_orgs_desc" type="text" value="' . get_option( 'number_of_orgs_desc' ) . '" />';
      
 } 
+
+function custom_theme_setup() {
+	add_theme_support( 'post-thumbnails' ); 
+}
+add_action( 'after_setup_theme', 'custom_theme_setup' );
  
 ?>
