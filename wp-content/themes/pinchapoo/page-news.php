@@ -89,7 +89,7 @@
 										$gossposts = get_posts( $args );
 										foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
 			                <article>
-	                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('thumbnail', array( 'class' => 'thumbnail alignleft' )); ?>
+	                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
 			                    <header>
 															<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			                    </header>
