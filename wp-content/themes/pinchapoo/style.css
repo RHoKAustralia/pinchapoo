@@ -4163,6 +4163,10 @@ Author URI: http://www.rhokaustralia.org/
 				max-width: 100%;
 			}
 
+			.postlist > article img.thumbnail {
+				max-width: none;
+			}
+
 		@media screen and (max-width: 1280px) {
 
 				.postlist > article:nth-child(2n) {
