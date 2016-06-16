@@ -28,7 +28,7 @@
             </form> -->
             <p>While we can’t do what we do without your pinching efforts, financial donations are vital too. We have DGR status, which means that all donations over $2 are tax deductible.
             <br /><br /><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3F3XRE3FSGCUS" target="_blank" style="border-bottom: none">
-                <img alt="Donate with PayPal" src="/wp-content/themes/pinchapoo/images/paypal_donate_button_200.jpg" width="98%"/>
+                <img alt="Donate with PayPal" src="/wp-content/themes/pinchapoo/images/paypal_donate_button_200.jpg" width="50%"/>
             </a></p>
             <p>While we encourage the cheeky pinching of your hotel toiletries, we also accept the donation of full size toiletries and other goods.</p>
             <ul class="actions">
