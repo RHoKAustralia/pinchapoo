@@ -1693,12 +1693,12 @@
 		}
 
 		a:hover {
-			color: #53bed5 !important;
+			color: #ec008f!important;
 			border-bottom-color: transparent;
 		}
 
 			a:hover:before {
-				color: #53bed5 !important;
+				color: #ec008f!important;
 			}
 
 	strong, b {
@@ -3413,7 +3413,7 @@
 			}
 
 			.dropotron li.active > a, .dropotron li:hover > a {
-				color: #53bed5 !important;
+				color: #ec008f!important;
 			}
 
 		.dropotron.level-0 {
