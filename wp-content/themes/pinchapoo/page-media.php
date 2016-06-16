@@ -56,7 +56,7 @@
                         <?php else : ?>
                         <?php endif; ?>
 				            <div class="posts">
-											  <?php foreach ( get_bookmarks( array( 'category_name'  => 'Media' )) as $bookmark ); ?>
+											  <?php foreach ( get_bookmarks( array( 'category_name'  => 'Media' )) as $bookmark ) : ?>
 	 				                <article>
 															<?php if ( $bookmark->link_image != null ) {
 																$output = "";
