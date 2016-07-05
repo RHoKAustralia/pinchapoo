@@ -4110,3 +4110,119 @@ Author URI: http://www.rhokaustralia.org/
 		padding: 0;
 		min-height: 0;
 	}
+
+
+/* POST LIST */
+	.postlist {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+		.postlist > article {
+			width: 100%;
+			border-style: solid;
+			border-right-width: 1px;
+			border-bottom-width: 1px;
+			padding: 2.75em;
+		}
+
+			.postlist > article .image {
+				margin: -1.375em 0 3.125em -1.375em;
+				display: block;
+				position: relative;
+				width: calc(100% + 2.75em);
+			}
+
+				.postlist > article .image img {
+					width: 100%;
+				}
+
+			.postlist > article > :last-child {
+				margin-bottom: 0;
+			}
+
+				.postlist > article > :last-child > :last-child {
+					margin-bottom: 0;
+				}
+
+			.postlist > article:nth-child(3n) {
+				border-right-width: 0;
+			}
+
+			.postlist > article:nth-last-child(1), .postlist > article:nth-last-child(2), .postlist > article:nth-last-child(3) {
+				border-bottom-width: 0;
+			}
+
+			.postlist > article img {
+				max-width: 100%;
+			}
+
+			.postlist > article img.thumbnail {
+				max-width: none;
+			}
+
+		@media screen and (max-width: 1280px) {
+
+				.postlist > article:nth-child(2n) {
+					border-right-width: 0;
+				}
+
+				.postlist > article:nth-child(3n) {
+					border-right-width: 1px;
+				}
+
+				.postlist > article:nth-last-child(3) {
+					border-bottom-width: 1px;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.postlist > article {
+				padding: 2.75em 2em;
+			}
+
+				.postlist > article .image {
+					margin: -1.375em 0 2.4375em -1em;
+					width: calc(100% + 2em);
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.postlist > article {
+				padding: 1em 1em 2em 1em;
+			}
+
+				.postlist > article .image {
+					margin: 0 0 1.75em 0;
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.postlist > article {
+				width: 100%;
+				border-right-width: 0 !important;
+			}
+
+				.postlist > article:nth-last-child(2) {
+					border-bottom-width: 1px;
+				}
+
+		}
+
+	.postlist > article {
+		border-color: #dbdbdb;
+	}
+
