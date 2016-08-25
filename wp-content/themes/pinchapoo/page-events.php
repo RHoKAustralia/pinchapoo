@@ -124,7 +124,6 @@
                             <p><?php the_excerpt(); ?></p>
                             <footer>
                                 <ul class="actions">
-                                    <li><a href="<?php the_permalink(); ?>" class="button">More Info</a></li>
                                 </ul>
                             </footer>
                         </article>
