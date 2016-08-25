@@ -61,6 +61,8 @@
                     $args = array( 'category_name' => 'Events' );
 
                     $gossposts = get_posts( $args );
+
+                    if(count($gossposts) === 0) { echo "No upcoming events - check back later!"; }
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
                     <div class="row">
                         <article>
