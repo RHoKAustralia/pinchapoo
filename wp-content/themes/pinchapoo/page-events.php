@@ -90,8 +90,8 @@
                     <?php
                     $args = array( 'category_name' => 'Past Events' );
                     $gossposts = get_posts( $args );
-                    foreach ( $gossposts as $post ) : setup_postdata( $post );
-                        if( $wp_query->current_post % 3 == 0 ){ echo("<div class='row'>"); } ?>
+                    foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+                       <?php if( $wp_query->current_post % 3 == 0 ){ echo("<div class='row'>"); } ?>
                         <div class="4u 12u$(medium)">
                         <article>
                             <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
