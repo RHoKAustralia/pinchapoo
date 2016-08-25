@@ -90,7 +90,7 @@
                     <?php
                     $args = array( 'category_name' => 'Past Events' );
                     $gossposts = get_posts( $args );
-                    $i = 0;
+                    $i = 1;
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
                        <?php if( $i % 3 == 0 ){ echo("<div class='row'>"); } ?>
                         <div class="4u 12u$(medium)">
@@ -106,7 +106,7 @@
                             </footer>
                         </article>
                         </div>
-                        <?php if( $i % 3 == 0) { echo("</div>"); }  $i++;?>
+                        <?php $i++; if( $i % 3 == 0) { echo("</div>"); $i=1} ?>
 
                     <?php endforeach;
                     wp_reset_postdata();
