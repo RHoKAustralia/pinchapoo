@@ -89,7 +89,6 @@
                 <div class="postlist">
                     <?php
                     $args = array( 'category_name' => 'Past Events' );
-$                   $i = 0;
                     $gossposts = get_posts( $args );
                     foreach ( $gossposts as $post ) : setup_postdata( $post );
                         if( $wp_query->current_post % 3 == 0 ){ echo("<div class='row'>"); } ?>
