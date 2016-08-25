@@ -64,7 +64,7 @@
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
                     <div class="row">
                         <article>
-                            <div class="6u 12u$(small)"><span class="image fit"><?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?> </span></div>
+                            <div class="6u 12u$(small)"><?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('large', array( 'class' => 'thumbnail alignleft' )); ?> </div>
                             <header>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
