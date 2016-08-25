@@ -106,8 +106,8 @@
                             </footer>
                         </article>
                         </div>
-                        <?php if( $i % 3 == 0) { echo("</div>"); } ?>
-                        $i++;
+                        <?php if( $i % 3 == 0) { echo("</div>"); }  $i++;?>
+
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
