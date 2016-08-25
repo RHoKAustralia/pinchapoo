@@ -99,7 +99,7 @@
                             <header>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
-                            <p><?php the_excerpt(); ?></p>
+                            <p><?php the_excerpt(); ?></p> 
                             <footer>
                                 <ul class="actions">
                                 </ul>
