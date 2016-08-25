@@ -51,11 +51,11 @@
                         <?php else : ?>
                         <?php endif; ?>
                     </div>
-        </section>
+        <!-- </section> -->
 
         <!-- Current Events -->
-        <section class="main">
-            <div class="inner">
+       <!--  <section class="main">
+            <div class="inner"> -->
                 <div class="postlist">
                     <?php
                     $args = array( 'category_name' => 'Events' );
