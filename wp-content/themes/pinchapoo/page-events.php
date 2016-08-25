@@ -24,6 +24,7 @@
 
         <section class="main">
             <div class="inner">
+
                 <?php if ( have_posts() ) : ?>
                 <?php while ( have_posts() ) : the_post(); ?>
                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -39,67 +40,73 @@
                     <div class="entry clear">
                         <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
                         <?php the_content(); ?>
-
-
                         <!--< ?php edit_post_link(); ?> -->
                         <!-- < ?php wp_link_pages(); ?> </div>
                     <!--end entry-->
                         <div class="post-footer">
-                            <!-- <div class="comments">< ?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div> -->
+                            <!-- <div class="comments">< ?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div>
                         </div><!--end post footer-->
-                    </div><!--end post-->
-                    <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
-                    <!-- <div class="navigation index">
-                        <div class="alignleft">< ?php next_posts_link( 'Older Entries' ); ?></div>
-                        <div class="alignright">< ?php previous_posts_link( 'Newer Entries' ); ?></div>
-                    </div><!--end navigation-->
-                    <?php else : ?>
-                    <?php endif; ?>
-                    <div class="posts">
-                        <?php foreach ( get_bookmarks( array( 'category_name'  => 'Events' )) as $bookmark ) : ?>
-                            <article>
-                                <?php if ( $bookmark->link_image != null ) {
-                                    if ( strpos( $bookmark->link_image, 'http' ) === 0 ) {
-                                        echo "<img src=\"$bookmark->link_image\" />";
-                                    }
-                                    else
-                                    {
-                                        echo "<img src=\"" . get_option('siteurl') . "$bookmark->link_image\" />";
-                                    }
-                                }
-                                ?>
-                                <header>
-                                    <h2><a href="<?php echo $bookmark->link_url; ?>"><?php echo $bookmark->link_name; ?></a></h2>
-                                </header>
-                                <p><?php echo $bookmark->link_description ?></p>
-                            </article>
-                        <?php endforeach ?>
-
-                    </div>
+                        </div><!--end post-->
+                        <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
+                        <!-- <div class="navigation index">
+                            <div class="alignleft">< ?php next_posts_link( 'Older Entries' ); ?></div>
+                            <div class="alignright">< ?php previous_posts_link( 'Newer Entries' ); ?></div>
+                        </div><!--end navigation-->
+                        <?php else : ?>
+                        <?php endif; ?>
 
 
 
-                    <!--  <h2><a href="#">Etiam feugiat tempus veroeros lorem</a></h2>
-                     <ul class="meta">
-                         <li>3 days ago</li>
-                         <li><a href="#" class="favorites">2,174</a></li>
-                         <li><a href="#" class="comments">1,423</a></li>
-                     </ul> -->
+                        <!--  <h2><a href="#">Etiam feugiat tempus veroeros lorem</a></h2>
+                         <ul class="meta">
+                             <li>3 days ago</li>
+                             <li><a href="#" class="favorites">2,174</a></li>
+                             <li><a href="#" class="comments">1,423</a></li>
+                         </ul> -->
 
 
-                    <!-- <a href="#" class="image main"><img src="< ?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
+                        <!-- <a href="#" class="image main"><img src="< ?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
 
-            <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+                <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
 
-            <h3>Magna commodo lobortis</h3>
-            <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+                <h3>Magna commodo lobortis</h3>
+                <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
 
-            <h3>Erat condimentum</h3>
-            <p>Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan. Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing.</p>
-            <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+                <h3>Erat condimentum</h3>
+                <p>Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan. Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing.</p>
+                <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
 -->
-                </div>
+                    </div>
         </section>
+
+        <!-- Posts -->
+        <section class="main">
+            <div class="inner">
+                <div class="postlist">
+                    <?php
+                    $args = array( 'category_name' => 'Events' );
+
+                    $gossposts = get_posts( $args );
+                    foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+                        <article>
+                            <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
+                            <header>
+                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                            </header>
+                            <p><?php the_excerpt(); ?></p>
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="<?php the_permalink(); ?>" class="button">Read More</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                    <?php endforeach;
+                    wp_reset_postdata();
+                    ?>
+                </div>
+            </div>
+        </section>
+
     </div>
 
     <!-- Footer -->
