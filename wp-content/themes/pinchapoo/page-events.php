@@ -92,7 +92,7 @@
 $                   $i = 0;
                     $gossposts = get_posts( $args );
                     foreach ( $gossposts as $post ) : setup_postdata( $post );
-                     if(($i % 3) == 0) { echo("<div class='row'>"); } ?>
+                        if( $wp_query->current_post % 3 == 0 ){ echo("<div class='row'>"); } ?>
                         <div class="4u 12u$(medium)">
                         <article>
                             <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
@@ -106,7 +106,7 @@ $                   $i = 0;
                             </footer>
                         </article>
                         </div>
-                        <?php if(($i % 3) == 0) { echo("</div>"); } ?>
+                        <?php if( $wp_query->current_post % 3 == 0) { echo("</div>"); } ?>
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
