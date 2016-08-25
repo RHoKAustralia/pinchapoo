@@ -96,13 +96,43 @@
                             <p><?php the_excerpt(); ?></p>
                             <footer>
                                 <ul class="actions">
-                                    <li><a href="<?php the_permalink(); ?>" class="button">Read More</a></li>
+                                    <li><a href="<?php the_permalink(); ?>" class="button">More Info</a></li>
                                 </ul>
                             </footer>
                         </article>
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
+                </div>
+
+        <!-- Posts -->
+                <hr>
+                <h3>Past Events</h3>
+                <div class="postlist">
+                <div class="row">
+                    <?php
+                    $args = array( 'category_name' => 'Past Events' );
+
+                    $gossposts = get_posts( $args );
+                    foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+                        <div class="4u 12u$(medium)">
+                        <article>
+                            <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
+                            <header>
+                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                            </header>
+                            <p><?php the_excerpt(); ?></p>
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="<?php the_permalink(); ?>" class="button">More Info</a></li>
+                                </ul>
+                            </footer>
+                        </article>
+                        </div>
+                    <?php endforeach;
+                    wp_reset_postdata();
+                    ?>
+                </div>
                 </div>
             </div>
         </section>
