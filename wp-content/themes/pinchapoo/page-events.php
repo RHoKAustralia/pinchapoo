@@ -92,14 +92,14 @@
                     $gossposts = get_posts( $args );
                     $i = 1;
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
-                       <?php if( $i % 3 == 0 ){ echo("<div class='row'>"); } ?>
+                       <?php if( $i == 1 ){ echo("<div class='row'>"); } ?>
                         <div class="4u 12u$(medium)">
                         <article>
                             <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
                             <header>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
-                            <p><?php the_excerpt(); ?></p> 
+                            <p><?php the_excerpt(); ?></p>
                             <footer>
                                 <ul class="actions">
                                 </ul>
