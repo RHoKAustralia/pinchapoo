@@ -69,7 +69,7 @@
                             <header>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
-                            <div class="6u 12u$(small)"><p><?php the_excerpt(); ?></p></div>
+                            <p><?php the_excerpt(); ?></p>
                             <footer>
                                 <ul class="actions">
                                     <li><a href="<?php the_permalink(); ?>" class="button">More Info</a></li>
