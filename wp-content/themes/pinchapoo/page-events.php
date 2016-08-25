@@ -53,7 +53,7 @@
                     </div>
         </section>
 
-        <!-- Posts -->
+        <!-- Current Events -->
         <section class="main">
             <div class="inner">
                 <div class="postlist">
@@ -62,24 +62,26 @@
 
                     $gossposts = get_posts( $args );
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+                    <div class="row">
                         <article>
-                            <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
+                            <div class="6u 12u$(small)"><span class="image fit"><?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?> </span></div>
                             <header>
-                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
-                            <p><?php the_excerpt(); ?></p>
+                            <div class="6u 12u$(small)"><p><?php the_excerpt(); ?></p></div>
                             <footer>
                                 <ul class="actions">
                                     <li><a href="<?php the_permalink(); ?>" class="button">More Info</a></li>
                                 </ul>
                             </footer>
                         </article>
+                    </div>
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
                 </div>
 
-        <!-- Posts -->
+        <!-- Past Events -->
                 <hr>
                 <h2>Past Events</h2>
                 <div class="postlist">
@@ -93,7 +95,7 @@
                         <article>
                             <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
                             <header>
-                                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
                             <p><?php the_excerpt(); ?></p>
                             <footer>
