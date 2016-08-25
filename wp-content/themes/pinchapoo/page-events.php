@@ -87,12 +87,12 @@
                 <hr>
                 <h2>Past Events</h2>
                 <div class="postlist">
-                <div class="row">
                     <?php
                     $args = array( 'category_name' => 'Past Events' );
-
+$                   $i = 0;
                     $gossposts = get_posts( $args );
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
+                     <?php if(($i % 3) == 0) { echo("<div class='row'>"); } ?>
                         <div class="4u 12u$(medium)">
                         <article>
                             <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
@@ -106,10 +106,10 @@
                             </footer>
                         </article>
                         </div>
+                        <?php if(($i % 3) == 0) { echo("</div>"); } ?>
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
-                </div>
                 </div>
             </div>
         </section>
