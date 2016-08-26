@@ -41,4 +41,3 @@
         <p>&copy; Pinchapoo. All rights reserved.</p>
     </div>
 </footer>
-<?php wp_footer(); ?>
