@@ -66,7 +66,7 @@
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
                     <div class="row">
                         <article>
-                            <div class="6u 12u$(small)"><img src="<?php the_post_thumbnail_url(); ?>" class="fit" /></div>
+                            <div class="6u 12u$(small)"><span class="image fit"><img src="<?php the_post_thumbnail_url(); ?>" /></span></div>
                             <div class="6u 12u$(small)">
                             <header>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
