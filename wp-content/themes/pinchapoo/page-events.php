@@ -79,12 +79,12 @@
                             </footer>
                             </div>
                         </article>
-                    </div>
                     <?php if( $i % 2 == 0) { echo("</div>"); $i=1; } else { $i++; } ?>
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
                 </div>
+
 
         <!-- Past Events -->
                 <hr>
