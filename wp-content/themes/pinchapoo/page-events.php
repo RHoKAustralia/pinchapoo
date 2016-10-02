@@ -61,10 +61,10 @@
                     $args = array( 'category_name' => 'Events' );
 
                     $gossposts = get_posts( $args );
-
+                    $i = 1;
                     if(count($gossposts) === 0) { echo "No upcoming events - check back soon!"; }
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
-                    <div class="row">
+                    <?php if( $i == 1 ){ echo("<div class='row'>"); } ?>
                         <article>
                             <div class="6u 12u$(small)"><span class="image fit"><img src="<?php the_post_thumbnail_url(); ?>" /></span></div>
                             <div class="6u 12u$(small)">
@@ -80,6 +80,7 @@
                             </div>
                         </article>
                     </div>
+                    <?php if( $i % 2 == 0) { echo("</div>"); $i=1; } else { $i++; } ?>
                     <?php endforeach;
                     wp_reset_postdata();
                     ?>
