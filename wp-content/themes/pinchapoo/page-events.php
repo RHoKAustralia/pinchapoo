@@ -65,9 +65,11 @@
                     if(count($gossposts) === 0) { echo "No upcoming events - check back soon!"; }
                     foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
                     <?php if( $i == 1 ){ echo("<div class='row'>"); } ?>
+                        <div class="6u 12u$(small)">
                         <article>
-                            <div class="6u 12u$(small)"><span class="image fit"><img src="<?php the_post_thumbnail_url(); ?>" /></span></div>
-                            <div class="6u 12u$(small)">
+                            <span class="image fit"><img src="<?php the_post_thumbnail_url(); ?>" /></span>
+                            <!--</div>
+                            <div class="6u 12u$(small)"> -->
                             <header>
                                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                             </header>
@@ -77,8 +79,9 @@
                                     <li><a href="<?php the_permalink(); ?>" class="button">More Info</a></li>
                                 </ul>
                             </footer>
-                            </div>
+                           <!-- </div> -->
                         </article>
+                    </div>
                     <?php if( $i % 2 == 0) { echo("</div>"); $i=1; } else { $i++; } ?>
                     <?php endforeach;
                     wp_reset_postdata();
