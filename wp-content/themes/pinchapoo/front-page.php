@@ -123,7 +123,7 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/about-us/how-pinchapoo-began/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_about_kate.png" alt="" /></a>
+                    <a href="/about-us/how-pinchapoo-began/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner-kate2.png" alt="" /></a>
                     <header>
                         <h2><a href="/about-us/how-pinchapoo-began/">How Pinchapoo Began</a></h2>
                         <ul class="meta">
