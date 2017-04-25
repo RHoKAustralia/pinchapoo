@@ -89,9 +89,13 @@
 										$gossposts = get_posts( $args );
 										foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
 			                <article>
+                                <div class="row uniform">
+                                    <div class="6u 12u$(xsmall)">
 	                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
-			                    <header>
-															<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                                    </div>
+                                    <div class="3u 12u$(xsmall)">
+                                        <header>
+                                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			                    </header>
 			                    <p><?php the_excerpt(); ?></p>
 			                    <footer>
@@ -99,11 +103,11 @@
 			                            <li><a href="<?php the_permalink(); ?>" class="button">Read More</a></li>
 			                        </ul>
 			                    </footer>
+                                        </div>
+                                </div>
 			                </article>
-										<?php endforeach; 
-										wp_reset_postdata();
-									?>
-	            </div>
+                                        <?php endforeach; wp_reset_postdata(); ?>
+	                    </div>
 					</div>
         </section>
 
