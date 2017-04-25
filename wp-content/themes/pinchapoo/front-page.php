@@ -106,7 +106,7 @@ Author URI: http://www.rhokaustralia.org/d
         <section class="main">
             <div class="posts">
                 <article>
-                    <a href="/about-us/what-is-pinchapoo/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_birthday.png" alt="" /></a>
+                    <a href="/about-us/what-is-pinchapoo/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_birthday2.png" alt="" /></a>
                     <header>
                         <h2><a href="/about-us/what-is-pinchapoo/">What is Pinchapoo?</a></h2>
                         <ul class="meta">
