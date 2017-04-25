@@ -90,7 +90,7 @@
 										foreach ( $gossposts as $post ) : setup_postdata( $post ); ?>
 			                <article>
                                 <div class="row">
-                                    <div class="3u 12u$(xsmall)">
+                                    <div class="4u 12u$(xsmall)">
 	                        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail('medium', array( 'class' => 'thumbnail alignleft' )); ?>
                                     </div>
                                     <div class="6u 12u$(xsmall)">
