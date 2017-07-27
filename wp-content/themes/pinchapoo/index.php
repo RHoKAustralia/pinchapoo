@@ -258,7 +258,7 @@ Author URI: http://www.rhokaustralia.org/
             }
             else
             {
-                location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=pinchapoo@hotmail.com.au&lc=AU&on1=Team%20Name&os1='+teamName+'&item_name=Pinchapoo%20Golf%20Day%20Individual%20Registration&amount=275.00&quantity='+teamSize+'&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
+                location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=pinchapoo@hotmail.com.au&lc=AU&on1=Team%20Name&os1='+teamName+'&item_name=Pinchapoo%20Golf%20Day%20Individual%20Registration&amount=1.00&quantity='+teamSize+'&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
             }
         }
     }, false );
