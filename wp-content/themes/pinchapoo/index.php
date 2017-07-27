@@ -210,6 +210,35 @@ Author URI: http://www.rhokaustralia.org/
 <script src="<?php bloginfo('template_url'); ?>/assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="<?php bloginfo('template_url'); ?>/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
+<script>
+    var teamName = "x";
+    var teamSize = 0;
+
+    document.addEventListener( 'wpcf7submit', function( event ) {
+        var inputs = event.detail.inputs;
+
+        for ( var i = 0; i < inputs.length; i++ ) {
+            if ( 'team-name' ==  inputs[i].name)
+            {
+                alert( inputs[i].value );
+                teamName = inputs[i].value;
+            }
+            else if('player-one' == inputs[i].name)
+            {
+                if(length(inputs[i].value) > 0)
+                {
+                    teamSize += 1;
+                }
+            }
+        }
+    }, false );
+    document.addEventListener( 'wpcf7mailsent', function( event ) {
+
+        location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=pinchapoo%40hotmail%2ecom%2eau&amp;lc=AU&amp;item_name=Pinchapoo%20Golf%20Day%20Team%20Registration&amp;amount=1000%2e00&amp;quantity=1&amp;currency_code=AUD&amp;button_subtype=services&amp;no_note=0&amp;bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
+
+    }, false );
+
+</script>
 
 </body>
 </html>
