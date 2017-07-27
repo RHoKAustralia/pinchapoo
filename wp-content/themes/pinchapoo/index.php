@@ -234,7 +234,7 @@ Author URI: http://www.rhokaustralia.org/
     }, false );
     document.addEventListener( 'wpcf7mailsent', function( event ) {
 
-        location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=pinchapoo%40hotmail%2ecom%2eau&amp;lc=AU&amp;item_name=Pinchapoo%20Golf%20Day%20Team%20Registration&amp;amount=1000%2e00&amp;quantity=1&amp;currency_code=AUD&amp;button_subtype=services&amp;no_note=0&amp;bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
+        location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=pinchapoo%40hotmail%2ecom%2eau&amp;lc=AU&amp;on1=Team%20Name&amp;os1='+teamName+'&amp;item_name=Pinchapoo%20Golf%20Day%20Team%20Registration&amp;amount=1000%2e00&amp;quantity=1&amp;currency_code=AUD&amp;button_subtype=services&amp;bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
 
     }, false );
 
