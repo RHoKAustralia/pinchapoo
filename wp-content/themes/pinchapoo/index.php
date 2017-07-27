@@ -215,13 +215,34 @@ Author URI: http://www.rhokaustralia.org/
     var teamSize = 0;
 
     document.addEventListener( 'wpcf7submit', function( event ) {
+     /*   var inputs = event.detail.inputs;
+
+        for ( var i = 0; i < inputs.length; i++ ) {
+            if ( 'team-name' ==  inputs[i].name)
+            {
+                teamName = inputs[i].value;
+                alert( teamName );
+            }
+            else if('player-one' == inputs[i].name)
+            {
+                if(length(inputs[i].value) > 0)
+                {
+                    teamSize += 1;
+                }
+            }
+        } */
+    }, false );
+
+    document.addEventListener( 'wpcf7mailsent', function( event ) {
+
         var inputs = event.detail.inputs;
 
         for ( var i = 0; i < inputs.length; i++ ) {
             if ( 'team-name' ==  inputs[i].name)
             {
-                alert( inputs[i].value );
                 teamName = inputs[i].value;
+                alert( teamName );
+                location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=pinchapoo@hotmail.com.au&lc=AU&on1=Team%20Name&os1='+inputs[i].value+'&item_name=Pinchapoo%20Golf%20Day%20Team%20Registration&amount=1000.00&quantity=1&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
             }
             else if('player-one' == inputs[i].name)
             {
@@ -231,10 +252,7 @@ Author URI: http://www.rhokaustralia.org/
                 }
             }
         }
-    }, false );
-    document.addEventListener( 'wpcf7mailsent', function( event ) {
 
-        location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=pinchapoo@hotmail.com.au&lc=AU&on1=Team%20Name&os1='+teamName+'&item_name=Pinchapoo%20Golf%20Day%20Team%20Registration&amount=1000.00&quantity=1&currency_code=AUD&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
 
     }, false );
 
