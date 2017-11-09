@@ -136,7 +136,7 @@ function goods_counter_callback($args) {
      
 }  
 
-function goods_counter_desc_callback($args) {
+function goods_counter_desc_callback($args) { 
  		echo '<input name="number_of_goods_desc" id="number_of_goods_desc" type="text" value="' . get_option( 'number_of_goods_desc' ) . '" />';
      
 } 
