@@ -78,6 +78,17 @@ function pinchapoo_initialize_theme_options() {
             'Set this value to be the suffix to the number of organisations (ie: x organisations supported).'
         )
     );
+
+    add_settings_field(
+        'hero_image',                         // ID used to identify the field throughout the theme
+        'Hero Image',                         // The label to the left of the option interface element
+        'hero_image_callback',                // The name of the function responsible for rendering the option interface
+        'pinchapoo_settings',                 // The page on which this option will be displayed
+        'pinchapoo_settings_section',         // The name of the section to which this field belongs
+        array(                                // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to the desired image'
+        )
+    );
      
     // Finally, we register the fields with WordPress
 		register_setting(
@@ -138,7 +149,12 @@ function orgs_counter_callback($args) {
 function orgs_counter_desc_callback($args) {
  		echo '<input name="number_of_orgs_desc" id="number_of_orgs_desc" type="text" value="' . get_option( 'number_of_orgs_desc' ) . '" />';
      
-} 
+}
+
+function hero_image_callback($args) {
+    echo '<input name="hero_image" id="hero_image" type="text" value="' . get_option( 'hero_image' ) . '" />';
+
+}
 
 function custom_theme_setup() {
 	add_theme_support( 'post-thumbnails' ); 
