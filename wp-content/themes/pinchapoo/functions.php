@@ -108,6 +108,11 @@ function pinchapoo_initialize_theme_options() {
         'pinchapoo_settings',
         'number_of_orgs_desc'
     );
+    register_setting(
+        'pinchapoo_settings',
+        'hero_image'
+    );
+
      
 } // end sandbox_initialize_theme_options
 
@@ -151,7 +156,7 @@ function orgs_counter_desc_callback($args) {
      
 }
 
-function hero_image_callback($args) { 
+function hero_image_callback($args) {
     echo '<input name="hero_image" id="hero_image" type="text" value="' . get_option( 'hero_image' ) . '" />';
 
 }
