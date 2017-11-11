@@ -89,6 +89,28 @@ function pinchapoo_initialize_theme_options() {
             'Set this value to the desired image'
         )
     );
+
+    add_settings_field(
+        'number_of_razors',
+        'Number of razors donated',
+        'razors_counter_callback',
+        'pinchapoo_settings',
+        'pinchapoo_settings_section',
+        array(
+            'Set this value to the number of razors donated to display on the page.'
+        )
+    );
+
+    add_settings_field(
+        'number_of_razors_desc',                      // ID used to identify the field throughout the theme
+        'Number of razors supported description',                           // The label to the left of the option interface element
+        'razors_counter_desc_callback',   // The name of the function responsible for rendering the option interface
+        'pinchapoo_settings',                          // The page on which this option will be displayed
+        'pinchapoo_settings_section',         // The name of the section to which this field belongs
+        array(                              // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to be the suffix to the number of razors (ie: x razors donated).'
+        )
+    );
      
     // Finally, we register the fields with WordPress
 		register_setting(
@@ -111,6 +133,14 @@ function pinchapoo_initialize_theme_options() {
     register_setting(
         'pinchapoo_settings',
         'hero_image'
+    );
+    register_setting(
+        'pinchapoo_settings',
+        'number_of_razors'
+    );
+    register_setting(
+        'pinchapoo_settings',
+        'number_of_razors_desc'
     );
 
      
@@ -154,6 +184,16 @@ function orgs_counter_callback($args) {
 function orgs_counter_desc_callback($args) {
  		echo '<input name="number_of_orgs_desc" id="number_of_orgs_desc" type="text" value="' . get_option( 'number_of_orgs_desc' ) . '" />';
      
+}
+
+function razors_counter_callback($args) {
+    echo '<input name="number_of_razors" id="number_of_razors" type="text" value="' . get_option( 'number_of_razors' ) . '" />';
+
+}
+
+function razors_counter_desc_callback($args) {
+    echo '<input name="number_of_razors_desc" id="number_of_razors_desc" type="text" value="' . get_option( 'number_of_razors_desc' ) . '" />';
+
 }
 
 function hero_image_callback($args) {
