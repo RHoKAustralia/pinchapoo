@@ -46,7 +46,7 @@ Author URI: http://www.rhokaustralia.org/d
 					</div>
 				</article>
 
-                <article class="half pinchapoo-blue squash" style="width:33%">
+                <article class="half pinchapoo-blue squash" style="width:34%">
                     <div class="content">
                         <span id="razors_counter" class="counter">0</span><span id="razors_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_razors_desc'); ?></span>
                     </div>
