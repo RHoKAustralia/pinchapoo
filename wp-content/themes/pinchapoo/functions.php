@@ -91,6 +91,17 @@ function pinchapoo_initialize_theme_options() {
     );
 
     add_settings_field(
+        'media_image',                         // ID used to identify the field throughout the theme
+        'Media Image',                         // The label to the left of the option interface element
+        'media_image_callback',                // The name of the function responsible for rendering the option interface
+        'pinchapoo_settings',                 // The page on which this option will be displayed
+        'pinchapoo_settings_section',         // The name of the section to which this field belongs
+        array(                                // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to the desired image'
+        )
+    );
+
+    add_settings_field(
         'number_of_razors',
         'Number of razors donated',
         'razors_counter_callback',
@@ -141,6 +152,10 @@ function pinchapoo_initialize_theme_options() {
     register_setting(
         'pinchapoo_settings',
         'number_of_razors_desc'
+    );
+    register_setting(
+        'pinchapoo_settings',
+        'media_image'
     );
 
      
@@ -198,6 +213,11 @@ function razors_counter_desc_callback($args) {
 
 function hero_image_callback($args) {
     echo '<input name="hero_image" id="hero_image" type="text" value="' . get_option( 'hero_image' ) . '" />';
+
+}
+
+function media_image_callback($args) {
+    echo '<input name="media_image" id="media_image" type="text" value="' . get_option( 'media_image' ) . '" />';
 
 }
 

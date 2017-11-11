@@ -175,7 +175,8 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/media-centre/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_17.png" alt="" /></a>
+                   <!-- <a href="/media-centre/" class="image"><img src="< ?php bloginfo('template_url'); ?>/images/banner_17.png" alt="" /></a> -->
+                    <a href="/media-centre/" class="image"><img src="<?php echo get_option('media_image'); ?>" alt="" id="media_image"  /></a>
                     <header>
                         <h2><a href="/media-centre/">'Poo News</a></h2>
                         <ul class="meta">
