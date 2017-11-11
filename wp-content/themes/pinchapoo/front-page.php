@@ -191,7 +191,8 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/get-involved/fundraise/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner_16.png" alt="" /></a>
+                   <!-- <a href="/get-involved/fundraise/" class="image"><img src="< ?php bloginfo('template_url'); ?>/images/banner_16.png" alt="" /></a> -->
+                    <a href="/get-involved/fundraise/" class="image"><img src=<img src="<?php echo get_option('fundraising_image'); ?>" alt="" id="fundraising_image" /></a>
                     <header>
                         <h2><a href="/get-involved/fundraise/">Fundraising</a></h2>
                         <ul class="meta">
