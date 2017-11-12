@@ -3744,6 +3744,35 @@ Author URI: http://www.rhokaustralia.org/
 
 				}
 
+#banner > article.third {
+	min-height: 50vh;
+	width: 33%;
+}
+
+#banner > article.third h2 {
+	font-size: 1.75em;
+}
+
+#banner > article.third .content {
+	width: 25em;
+}
+
+@media screen and (max-width: 1680px) {
+
+	#banner > article.third h2 {
+		font-size: 1.35em;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	#banner > article.third h2 {
+		font-size: 1.25em;
+	}
+
+}
+
 		@media screen and (max-width: 980px) {
 
 			#banner > article {
@@ -3755,6 +3784,10 @@ Author URI: http://www.rhokaustralia.org/
 				}
 
 				#banner > article.half {
+					min-height: 35vh;
+				}
+
+				#banner > article.third {
 					min-height: 35vh;
 				}
 
@@ -3773,6 +3806,10 @@ Author URI: http://www.rhokaustralia.org/
 				#banner > article.half {
 					min-height: 0;
 				}
+
+			#banner > article.third {
+				min-height: 0;
+			}
 
 		}
 
@@ -3806,6 +3843,15 @@ Author URI: http://www.rhokaustralia.org/
 							width: 100%;
 							max-width: 100%;
 						}
+
+			#banner > article.third {
+				width: 100%;
+			}
+
+			#banner > article.third .content {
+				width: 100%;
+				max-width: 100%;
+			}
 
 		}
 

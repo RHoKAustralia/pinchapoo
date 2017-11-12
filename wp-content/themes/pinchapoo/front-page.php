@@ -39,20 +39,21 @@ Author URI: http://www.rhokaustralia.org/d
                 </ul>
             </div> -->
         </article>
-				
-				<article class="half pinchapoo-blue squash" style="width:33%">
+
+       <!-- <article class="half pinchapoo-blue squash" style="width:33%"> -->
+        <article class="third pinchapoo-blue squash">
 					<div class="content">
 						<span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_goods_desc'); ?></span>
 					</div>
 				</article>
 
-                <article class="half pinchapoo-blue squash" style="width:34%">
+                <article class="third pinchapoo-blue squash" style="width:34%">
                     <div class="content">
                         <span id="razors_counter" class="counter">0</span><span id="razors_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_razors_desc'); ?></span>
                     </div>
                 </article>
 				
-				<article class="half pinchapoo-blue squash" style="width:33%">
+				<article class="third pinchapoo-blue squash">
 					<div class="content">
 						<span id="orgs_counter" class="counter">0</span><span id="orgs_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_orgs_desc'); ?></span>
 					</div>
