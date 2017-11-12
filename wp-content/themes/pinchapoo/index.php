@@ -212,7 +212,7 @@ Author URI: http://www.rhokaustralia.org/
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
 <script>
 
-   // document.addEventListener( 'wpcf7submit', function( event ) {
+    document.addEventListener( 'wpcf7submit', function( event ) {
      /*   var inputs = event.detail.inputs;
 
         for ( var i = 0; i < inputs.length; i++ ) {
@@ -229,11 +229,26 @@ Author URI: http://www.rhokaustralia.org/
                 }
             }
         } */
-   // }, false );
+    }, false );
 
-   /* document.addEventListener( 'wpcf7mailsent', function( event ) {
+    document.addEventListener( 'wpcf7mailsent', function( event )
+    {
+       var inputs = event.detail.inputs;
 
-        var inputs = event.detail.inputs;
+        var razorCount = get_option('number_of_razors');
+
+        for ( var i = 0; i < inputs.length; i++ ) {
+            if ( 'razor-total' ==  inputs[i].name)
+            {
+                $new_value = inputs[i].value + razorCount;
+                update_option( 'number_of_razors' , $new_value );
+            }
+        }
+    }, false );
+
+  // document.addEventListener( 'wpcf7mailsent', function( event ) {
+
+       /* var inputs = event.detail.inputs;
 
         var teamName = "x";
         var teamSize = 0;
@@ -260,8 +275,8 @@ Author URI: http://www.rhokaustralia.org/
             {
                 location = 'https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=pinchapoo@hotmail.com.au&lc=AU&on1=Team%20Name&os1='+teamName+'&item_name=Pinchapoo%20Golf%20Day%20Individual%20Registration&amount=275.00&quantity='+teamSize+'&currency_code=AUD&rm=1&return=http://www.pinchapoo.org.au/get-involved/events/&button_subtype=services&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest';
             }
-        }
-    }, false ); */
+        } */
+   // }, false );
 
 </script>
 

@@ -248,11 +248,17 @@ Author URI: http://www.rhokaustralia.org/d
 						  el: document.getElementById('orgs_counter'),
 						  value: 0
 						});
+                        var razorsCounter = new Odometer({
+                            el: document.getElementById('razors_counter'),
+                            value: 0
+                        });
 						setTimeout(function() {
 							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
 							$('#goods_desc').show({duration: 400, easing: 'swing'});
 							orgsCounter.update(<?php echo get_option('number_of_orgs'); ?>);
 							$('#orgs_desc').show({duration: 400, easing: 'swing'});
+                            razorsCounter.update(<?php echo get_option('number_of_razors'); ?>);
+                            $('#razors_desc').show({duration: 400, easing: 'swing'});
 						}, 1000);
 					});
 				</script>
