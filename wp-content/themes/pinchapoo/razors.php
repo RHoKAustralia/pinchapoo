@@ -8,8 +8,8 @@ Author URI: http://www.rhokaustralia.org/
 -->
 <?php
 echo "updating....";
-echo $razorCount = get_option('number_of_razors');
 echo $newCount = $_GET['count'];
+echo $razorCount = get_option('number_of_razors');
 
 $new_value = $razorCount + $newCount;
 
