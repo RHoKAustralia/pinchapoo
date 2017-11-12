@@ -212,7 +212,7 @@ Author URI: http://www.rhokaustralia.org/
 <script src="<?php bloginfo('template_url'); ?>/assets/js/main.js"></script>
 <script>
 
-    document.addEventListener( 'wpcf7submit', function( event ) {
+    //document.addEventListener( 'wpcf7submit', function( event ) {
      /*   var inputs = event.detail.inputs;
 
         for ( var i = 0; i < inputs.length; i++ ) {
@@ -229,9 +229,9 @@ Author URI: http://www.rhokaustralia.org/
                 }
             }
         } */
-    }, false );
+   // }, false );
 
-    document.addEventListener( 'wpcf7mailsent', function( event )
+   /* document.addEventListener( 'wpcf7mailsent', function( event )
     {
        var inputs = event.detail.inputs;
 
@@ -241,7 +241,7 @@ Author URI: http://www.rhokaustralia.org/
                 location = "http://www.pinchapoo.org.au/wp-content/themes/pinchapoo/razors.php?count="+inputs[i].value;
             }
         }
-    }, false );
+    }, false ); */
 
   // document.addEventListener( 'wpcf7mailsent', function( event ) {
 
