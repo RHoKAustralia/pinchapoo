@@ -38,6 +38,11 @@ Author URI: http://www.rhokaustralia.org/d
                     <li><a href="/about-us/what-is-pinchapoo/" class="button">Read More</a></li>
                 </ul>
             </div> -->
+            <div class="content">
+                <ul class="actions">
+                    <li><a href="/about-us/what-is-pinchapoo/" class="button">Read Mode</a></li>
+                </ul>
+            </div>
         </article>
 				
 				<article class="half pinchapoo-blue squash" style="width:33%">
@@ -60,7 +65,7 @@ Author URI: http://www.rhokaustralia.org/d
 
         <!-- Two -->
         <!-- <article class="half">
-            <img src="<?php bloginfo('template_url'); ?>/images/pic02.jpg" alt="" data-position="center" />
+            <img src="< ?php bloginfo('template_url'); ?>/images/pic02.jpg" alt="" data-position="center" />
             <div class="content">
                 <h2><a href="#">Aliquam veroeros</a></h2>
                 <p>Dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat.</p>
@@ -72,7 +77,7 @@ Author URI: http://www.rhokaustralia.org/d
 
         <!-- Three -->
         <!-- <article class="half">
-            <img src="<?php bloginfo('template_url'); ?>/images/pic03.jpg" alt="" data-position="center" />
+            <img src="< ?php bloginfo('template_url'); ?>/images/pic03.jpg" alt="" data-position="center" />
             <div class="content">
                 <h2><a href="#">Tempus sed magna</a></h2>
                 <p>Dolor sit amet tempus adipiscing amet sed aliquam feugiat veroeros lorem ipsum dolor sit amet consequat.</p>
@@ -99,7 +104,7 @@ Author URI: http://www.rhokaustralia.org/d
                         <li><a href="#" class="comments">1,423</a></li>
                     </ul>
                 </header>
-                <a href="#" class="image main"><img src="<?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
+                <a href="#" class="image main"><img src="< ?php bloginfo('template_url'); ?>/images/pic04.jpg" alt="" /></a>
                 <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
                 <footer>
                     <ul class="actions">
