@@ -7,6 +7,7 @@ Author: RHoK
 Author URI: http://www.rhokaustralia.org/
 -->
 <?php
+wp_head();
 echo "updating....";
 echo $newCount = $_GET['count'];
 echo $razorCount = get_option('number_of_razors');
