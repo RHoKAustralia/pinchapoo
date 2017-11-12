@@ -235,13 +235,10 @@ Author URI: http://www.rhokaustralia.org/
     {
        var inputs = event.detail.inputs;
 
-        var razorCount = get_option('number_of_razors');
-
         for ( var i = 0; i < inputs.length; i++ ) {
             if ( 'razor-total' ==  inputs[i].name)
             {
-                $new_value = inputs[i].value + razorCount;
-                update_option( 'number_of_razors' , $new_value );
+                location = "http://www.pinchapoo.org.au/wp-content/themes/pinchapoo/razors.php?count="+inputs[i].value;
             }
         }
     }, false );
