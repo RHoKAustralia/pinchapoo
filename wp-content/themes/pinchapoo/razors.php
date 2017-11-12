@@ -1,23 +1,26 @@
-<?php
-wp_head();
-echo "updating....";
-echo $newCount = $_GET['count'];
-echo $razorCount = get_option('number_of_razors');
+<html>
+<head><?php wp_head();
 
-$new_value = $razorCount + $newCount;
+    echo "updating....";
+    echo $newCount = $_GET['count'];
+    echo $razorCount = get_option('number_of_razors');
 
-update_option( 'number_of_razors' , $new_value );
+    $new_value = $razorCount + $newCount;
 
-?><script>
+    update_option( 'number_of_razors' , $new_value );
 
-    setTimeout(sendForm, 1000);
+    ?><script>
 
-    function sendForm()
-    {
-        location = "http://www.pinchapoo.org.au/;
-    }
+        setTimeout(sendForm, 1000);
 
-</script>
+        function sendForm()
+        {
+            location = "http://www.pinchapoo.org.au/;
+        }
+
+    </script>
+</head>
+<body>
 </body>
 </html>
 
