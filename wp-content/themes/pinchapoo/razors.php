@@ -1,11 +1,3 @@
-<!--
-Theme Name: Pinchapoo
-Theme URI: http://www.pinchapoo.org.au/
-Description: A brief description.
-Version: 1.0
-Author: RHoK
-Author URI: http://www.rhokaustralia.org/
--->
 <?php
 wp_head();
 echo "updating....";

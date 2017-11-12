@@ -241,7 +241,7 @@ Author URI: http://www.rhokaustralia.org/
                 location = "http://www.pinchapoo.org.au/wp-content/themes/pinchapoo/razors.php?count="+inputs[i].value;
             }
         }
-    }, false ); 
+    }, false );
 
   // document.addEventListener( 'wpcf7mailsent', function( event ) {
 
