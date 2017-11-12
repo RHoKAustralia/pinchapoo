@@ -1,7 +1,7 @@
 <?php
 
-$razorCount = get_option('number_of_razors');
-$newCount = (int) $_GET['count'];
+echo $razorCount = get_option('number_of_razors');
+echo $newCount = (int) $_GET['count'];
 
 $new_value = $razorCount + $newCount;
 
