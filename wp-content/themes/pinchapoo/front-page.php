@@ -145,7 +145,8 @@ Author URI: http://www.rhokaustralia.org/d
                     </footer>
                 </article>
                 <article>
-                    <a href="/get-involved/donate-toiletries/" class="image"><img src="<?php bloginfo('template_url'); ?>/images/banner.png" alt="" /></a>
+                    <a href="/get-involved/donate-toiletries/" class="image"><img src="<?php echo get_option('donate_image'); ?>" alt="" id="donate_image"  /></a>
+                    <!--<a href="/get-involved/donate-toiletries/" class="image"><img src="< ?php bloginfo('template_url'); ?>/images/banner.png" alt="" /></a> -->
                     <header>
                         <h2><a href="/get-involved/donate-toiletries/">How to Donate</a></h2>
                         <ul class="meta">
