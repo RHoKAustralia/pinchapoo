@@ -1,7 +1,7 @@
 <html>
 <head>
     <?php
-    echo "updating....";
+   /* echo "updating....";
     echo $razorCount = get_option('number_of_razors');
     echo $newCount = (int) $_GET['count'];
 
@@ -11,9 +11,10 @@
 
     echo '<script">
            window.location = "http://www.pinchapoo.org.au";
-          </script>';
+          </script>'; */
     ?>
 </head>
 <body>
+<p>Testing</p>
 </body>
 </html>
