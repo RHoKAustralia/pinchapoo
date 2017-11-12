@@ -1,6 +1,6 @@
 
     <?php
-   echo "updating....";
+   //echo "updating....";
     echo $razorCount = get_option('number_of_razors');
     echo $newCount = (int) $_GET['count'];
 
