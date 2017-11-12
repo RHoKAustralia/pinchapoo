@@ -7,7 +7,8 @@ $new_value = $razorCount + $newCount;
 
 update_option( 'number_of_razors' , $new_value );
 
-header("Location: http://www.pinchapoo.org.au");
-exit();
+echo '<script type="text/javascript">
+           window.location = "http://www.pinchapoo.org.au";
+      </script>';
 
 ?>
