@@ -158,6 +158,7 @@ Author URI: http://www.rhokaustralia.org/d
                     <footer>
                         <ul class="actions">
                             <li><a href="/get-involved/donate-toiletries/" class="button">Donate Now</a></li>
+                            <li><a href="/get-involved/razor-rally-17/" class="button">Razor Rally</a></li>
                         </ul>
                     </footer>
                 </article>
