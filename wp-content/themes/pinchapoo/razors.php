@@ -1,11 +1,10 @@
 <html>
 <head></head>
 <body>
-<form id='goForm' method="post" action="http://www.pinchapoo.org.au/"></form>
 <?php
-//echo "updating....";
-$razorCount = (int) get_option('number_of_razors');
-$newCount = (int) $_GET['count'];
+echo "updating....";
+echo $razorCount = get_option('number_of_razors');
+echo $newCount = $_GET['count'];
 
 $new_value = $razorCount + $newCount;
 
@@ -17,7 +16,7 @@ update_option( 'number_of_razors' , $new_value );
 
     function sendForm()
     {
-        document.getElementById("goForm").submit();
+        location = "http://www.pinchapoo.org.au/;
     }
 
 </script>
