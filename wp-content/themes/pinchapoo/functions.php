@@ -167,14 +167,14 @@ function pinchapoo_initialize_theme_options() {
         'pinchapoo_settings',
         'hero_image'
     );
-    register_setting(
+  /*  register_setting(
         'pinchapoo_settings',
         'number_of_razors'
     );
     register_setting(
         'pinchapoo_settings',
         'number_of_razors_desc'
-    );
+    ); */
     register_setting(
         'pinchapoo_settings',
         'media_image'
