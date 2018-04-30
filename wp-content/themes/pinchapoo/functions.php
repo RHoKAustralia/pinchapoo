@@ -123,7 +123,7 @@ function pinchapoo_initialize_theme_options() {
         )
     );
 
-    add_settings_field(
+  /*  add_settings_field(
         'number_of_razors',
         'Number of razors donated',
         'razors_counter_callback',
@@ -143,7 +143,7 @@ function pinchapoo_initialize_theme_options() {
         array(                              // The array of arguments to pass to the callback. In this case, just a description.
             'Set this value to be the suffix to the number of razors (ie: x razors donated).'
         )
-    );
+    ); */
      
     // Finally, we register the fields with WordPress
 		register_setting(
@@ -231,7 +231,7 @@ function orgs_counter_desc_callback($args) {
      
 }
 
-function razors_counter_callback($args) {
+/*function razors_counter_callback($args) {
     echo '<input name="number_of_razors" id="number_of_razors" type="text" value="' . get_option( 'number_of_razors' ) . '" />';
 
 }
@@ -239,7 +239,7 @@ function razors_counter_callback($args) {
 function razors_counter_desc_callback($args) {
     echo '<input name="number_of_razors_desc" id="number_of_razors_desc" type="text" value="' . get_option( 'number_of_razors_desc' ) . '" />';
 
-}
+} */
 
 function hero_image_callback($args) {
     echo '<input name="hero_image" id="hero_image" type="text" value="' . get_option( 'hero_image' ) . '" />';
