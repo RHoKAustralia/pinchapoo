@@ -41,7 +41,7 @@ Author URI: http://www.rhokaustralia.org/d
         </article>
 
        <!-- <article class="half pinchapoo-blue squash" style="width:33%"> -->
-        <article class="pinchapoo-blue squash">
+        <article class="half pinchapoo-blue squash">
             <div class="content">
                 <span id="goods_counter" class="counter">0</span><span id="goods_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_goods_desc'); ?></span>
             </div>
@@ -53,7 +53,7 @@ Author URI: http://www.rhokaustralia.org/d
                     </div>
                 </article> -->
         <!--<article class="pinchapoo-blue squash" style="width:50%"></article> -->
-            <article class="pinchapoo-blue squash"> <!-- third -->
+            <article class="half pinchapoo-blue squash"> <!-- third -->
                 <div class="content">
                     <span id="orgs_counter" class="counter">0</span><span id="orgs_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_orgs_desc'); ?></span>
                 </div>
