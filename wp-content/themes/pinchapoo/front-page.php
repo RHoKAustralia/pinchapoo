@@ -49,7 +49,7 @@ Author URI: http://www.rhokaustralia.org/d
         <!--<article class="pinchapoo-blue squash" style="width:0.5%"></article>
                 <article class="pinchapoo-blue squash"><!-- third -->
                     <!--<div class="content">
-                        <span id="razors_counter" class="counter"></span><span id="razors_desc" class="counter-description" style="display: none;"> <?php echo get_option('number_of_razors_desc'); ?></span>
+                        <span id="razors_counter" class="counter"></span><span id="razors_desc" class="counter-description" style="display: none;"> < ?php echo get_option('number_of_razors_desc'); ?></span>
                     </div>
                 </article> -->
         <!--<article class="pinchapoo-blue squash" style="width:50%"></article> -->
@@ -250,17 +250,17 @@ Author URI: http://www.rhokaustralia.org/d
 						  el: document.getElementById('orgs_counter'),
 						  value: 0
 						});
-                        var razorsCounter = new Odometer({
+                      /*  var razorsCounter = new Odometer({
                             el: document.getElementById('razors_counter'),
                             value: 0
-                        });
+                        }); */
 						setTimeout(function() {
 							goodsCounter.update(<?php echo get_option('number_of_goods'); ?>);
 							$('#goods_desc').show({duration: 400, easing: 'swing'});
 							orgsCounter.update(<?php echo get_option('number_of_orgs'); ?>);
 							$('#orgs_desc').show({duration: 400, easing: 'swing'});
-                            razorsCounter.update(<?php echo get_option('number_of_razors'); ?>);
-                            $('#razors_desc').show({duration: 400, easing: 'swing'});
+                            /*razorsCounter.update(< ?php echo get_option('number_of_razors'); ?>);
+                            $('#razors_desc').show({duration: 400, easing: 'swing'}); */
 						}, 1000);
 					});
 				</script>
