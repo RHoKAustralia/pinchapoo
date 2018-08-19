@@ -186,7 +186,7 @@ function pinchapoo_initialize_theme_options() {
         'number_of_orgs_desc'
     );
     register_setting(
-        'pinchapoo_settings',
+        'pinchapoo_settings', 
         'hero_image'
     );
     register_setting(
