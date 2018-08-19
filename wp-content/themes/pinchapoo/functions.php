@@ -102,6 +102,17 @@ function pinchapoo_initialize_theme_options() {
     );
 
     add_settings_field(
+        'donate_image',                         // ID used to identify the field throughout the theme
+        'How To Donate Image',                         // The label to the left of the option interface element
+        'donate_image_callback',                // The name of the function responsible for rendering the option interface
+        'pinchapoo_settings',                 // The page on which this option will be displayed
+        'pinchapoo_settings_section',         // The name of the section to which this field belongs
+        array(                                // The array of arguments to pass to the callback. In this case, just a description.
+            'Set this value to the desired image'
+        )
+    );
+
+    add_settings_field(
         'media_image',                         // ID used to identify the field throughout the theme
         'Media Image',                         // The label to the left of the option interface element
         'media_image_callback',                // The name of the function responsible for rendering the option interface
@@ -182,6 +193,10 @@ function pinchapoo_initialize_theme_options() {
         'pinchapoo_settings',
         'whatis_image'
     );
+    register_setting(
+        'pinchapoo_settings',
+        'donate_image'
+    );
   /*  register_setting(
         'pinchapoo_settings',
         'number_of_razors'
@@ -258,6 +273,11 @@ function razors_counter_desc_callback($args) {
 
 function hero_image_callback($args) {
     echo '<input name="hero_image" id="hero_image" type="text" value="' . get_option( 'hero_image' ) . '" />';
+
+}
+
+function donate_image_callback($args) {
+    echo '<input name="donate_image" id="donate_image" type="text" value="' . get_option( 'donate_image' ) . '" />';
 
 }
 
